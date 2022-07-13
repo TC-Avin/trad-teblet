@@ -183,14 +183,14 @@ const MyProfileForm = (props) => {
                     <SliderCard subTitle='Commex' img={'/assets/img/svg-6.png'} />
                     <SliderCard subTitle='Pms' img={'/assets/img/svg-6.png'} />
                 </div>
-                <div className='mx-10'>
+                <div className='md:mx-10 mx-3'>
                     <Table />
                 </div>
             </div>
 
             <div>
-                <div className='font-semibold text-xl text-left ml-12 my-8 text-[#3D3D3D]'>Products</div>
-                <div className='mx-10'>
+                <div className='font-semibold text-xl text-left md:ml-12 ml-6 md:my-8 my-3 text-[#3D3D3D]'>Products</div>
+                <div className='md:mx-10 mx-3'>
                     <ProductTabs />
                 </div>
             </div>

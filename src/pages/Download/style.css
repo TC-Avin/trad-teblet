@@ -147,7 +147,7 @@
 
   @media screen and (max-width: 768px) {
     .card-width{
-        width: 245% !important;
+        /* width: 600px !important; */
       }
   }
   
