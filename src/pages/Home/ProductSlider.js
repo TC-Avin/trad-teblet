@@ -55,8 +55,7 @@ const ProductSlider = () => {
             {initalState.map((value, index) => (
               <div
                 key={index + "_value"}
-                className="  justify-center p-10 w-60  bg-slate-300 md:p-10  md:bg-[#FFFFFF] items-center drop-shadow-md  flex flex-col   rounded-xl slide-content"
-              >
+                className="  justify-center p-10 w-60  bg-white lg:p-10  lg:bg-[#FFFFFF] items-center drop-shadow-md flex flex-col rounded-xl slide-content">
                 <div className="items-center justify-self-center ">
                   <img
                     alt="No Image"

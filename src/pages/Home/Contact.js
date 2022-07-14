@@ -54,13 +54,13 @@ const Contact = ()=>{
                         </h2>
                     </div>
                 </div>
-                <div className="px-10   grid gap-8 grid-cols-1 md:grid-cols-2 py-2   md:py-16 mx-auto bg-white ">
-                    <div className="flex flex-col justify-between">
+                <div className="lg:px-10 px-3 grid gap-8 grid-cols-1 lg:grid-cols-2 py-2 lg:py-16 mx-auto bg-white ">
+                    <div className="flex flex-col justify-between lg:flex-col">
                         <img src="/assets/img/map-img.png" class="w-auto h-full" />
                     </div>
 
                     <div className="bg-white text-gray-900 rounded-lg shadow-lg  px-8 py-5" >
-                        <div className='grid gap-4 grid-cols-1   md:grid-cols-2  ' >
+                        <div className='grid gap-4 grid-cols-1 lg:grid-cols-2  ' >
                             <div className='flex flex-col justify-between' >
                                 <div>
                                     <span className="uppercase text-sm text-[#3491FF] font-bold">
