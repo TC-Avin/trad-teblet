@@ -5,7 +5,7 @@ const MyQuery = () => {
     
   return (
     <div>
-    <div className='px-12 pt-2 pb-8'>
+    <div className='lg:px-12 px-3  pt-2 pb-8'>
         <div>
             <MyQueryTable />
         </div>

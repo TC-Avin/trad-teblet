@@ -70,7 +70,7 @@ const MyProfileForm = (props) => {
 
     return (
         <div className='border back-forword-btn rounded-2xl m-7  md:m-10'>
-            <div className='flex justify-between px-5 md:px-12 py-4'>
+            <div className='flex justify-between px-5 lg:px-12 py-4'>
                 <div className='font-semibold text-xl text-left  text-[#3D3D3D]'>My Profile</div>
                 <div className='font-medium text-xl text-end text-[#3D3D3D] cursor-pointer flex' >
                    
@@ -86,18 +86,18 @@ const MyProfileForm = (props) => {
             </div>
             <hr className='pb-4 border-t-[#EBEBEB]'></hr>
             <div className={`flex justify-between pb-6 ${profile=="false"?' input-border-all':""}`}>
-                <div className='w-1/2  md:px-12 px-4'>
+                <div className='w-1/2  lg:px-12 px-4'>
                     <div className='flex items-center'>
-                        <div className="uppercase  font-medium justify-start w-2/5 md:text-sm text-xs text-[#3D3D3D]">*Account Code</div>
-                        <input disabled={profile=="True"?true:false} name="accountcode" className="input-border w-3/5 bg-[#F4FAFF] text-[#9E9E9E] mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline justify-end text-sm" type="number" placeholder="N06" onChange={storeData}/>
+                        <div className="uppercase  font-medium justify-start w-2/5 lg:text-sm text-xs text-[#3D3D3D]">*Account Code</div>
+                        <input disabled={profile=="True"?true:false} name="accountcode" className="input-border w-3/5 bg-[#F4FAFF] text-[#9E9E9E] mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline justify-end lg:text-sm text-xs" type="number" placeholder="N06" onChange={storeData}/>
                     </div>
                     <div className='flex items-center'>
-                        <div className="uppercase  font-medium w-2/5 text-[#3D3D3D] md:text-sm text-xs">*Name</div>
-                        <input disabled={profile=="True"?true:false} name="name" className="input-border w-3/5 bg-[#F4FAFF] text-[#9E9E9E] mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline text-sm" type="text" placeholder="Nariman Finvest Pvt. Ltd."  onChange={storeData}/>
+                        <div className="uppercase  font-medium w-2/5 text-[#3D3D3D] lg:text-sm text-xs">*Name</div>
+                        <input disabled={profile=="True"?true:false} name="name" className="input-border w-3/5 bg-[#F4FAFF] text-[#9E9E9E] mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline lg:text-sm text-xs" type="text" placeholder="Nariman Finvest Pvt. Ltd."  onChange={storeData}/>
                     </div>
                     <div className='flex items-center'>
-                        <div className="uppercase  font-medium w-2/5 text-[#3D3D3D] md:text-sm text-xs">*Address</div>
-                        <input disabled={profile=="True"?true:false} name="adderess" className="input-border w-3/5 bg-[#F4FAFF] text-[#9E9E9E] mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline text-sm" type="text" placeholder="4 Phoneix, 457 S.V.P Road , Perathana Samaj, Mumbai 400004"  onChange={storeData}/>
+                        <div className="uppercase  font-medium w-2/5 text-[#3D3D3D] lg:text-sm text-xs">*Address</div>
+                        <input disabled={profile=="True"?true:false} name="adderess" className="input-border w-3/5 bg-[#F4FAFF] text-[#9E9E9E] mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline lg:text-sm text-xs" type="text" placeholder="4 Phoneix, 457 S.V.P Road , Perathana Samaj, Mumbai 400004"  onChange={storeData}/>
                     </div>
                     {check&&<div className='flex items-center mt-1'>
                         <p className='w-2/5'></p>
@@ -106,18 +106,18 @@ const MyProfileForm = (props) => {
                     
                     
                 </div>
-                <div className='w-1/2 md:px-12 px-4	'>
+                <div className='w-1/2 lg:px-12 px-4	'>
                     <div className='flex items-center	'>
-                        <div className="uppercase  font-medium w-2/5 text-[#3D3D3D] md:text-sm text-xs">*City</div>
-                        <input disabled={profile=="True"?true:false} name="city" className="input-border w-3/5 bg-[#F4FAFF] text-[#9E9E9E] mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline text-sm" type="text" placeholder="Mumbai"  onChange={storeData}/>
+                        <div className="uppercase  font-medium w-2/5 text-[#3D3D3D] lg:text-sm text-xs">*City</div>
+                        <input disabled={profile=="True"?true:false} name="city" className="input-border w-3/5 bg-[#F4FAFF] text-[#9E9E9E] mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline lg:text-sm text-xs" type="text" placeholder="Mumbai"  onChange={storeData}/>
                     </div>
                     <div className='flex items-center	'>
-                        <div className="uppercase  font-medium w-2/5 text-[#3D3D3D] md:text-sm text-xs">*Pin Code</div>
-                        <input disabled={profile=="True"?true:false} name="pincode" className="input-border w-3/5 bg-[#F4FAFF] text-[#9E9E9E] mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline text-sm" type="number" placeholder="40004"  onChange={storeData}/>
+                        <div className="uppercase  font-medium w-2/5 text-[#3D3D3D] lg:text-sm text-xs">*Pin Code</div>
+                        <input disabled={profile=="True"?true:false} name="pincode" className="input-border w-3/5 bg-[#F4FAFF] text-[#9E9E9E] mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline lg:text-sm text-xs" type="number" placeholder="40004"  onChange={storeData}/>
                     </div>
                     <div className='flex items-center	'>
-                        <div className="uppercase  font-medium w-2/5 text-[#3D3D3D] md:text-sm text-xs">*Other Companies</div>
-                        <input disabled={profile=="True"?true:false} name="company" className="input-border w-3/5 bg-[#F4FAFF] text-[#9E9E9E] mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline text-sm" type="text" placeholder="Nariman Commodity Services Pvt. Ltd."  onChange={storeData}/>
+                        <div className="uppercase  font-medium w-2/5 text-[#3D3D3D] lg:text-sm text-xs">*Other Companies</div>
+                        <input disabled={profile=="True"?true:false} name="company" className="input-border w-3/5 bg-[#F4FAFF] text-[#9E9E9E] mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline lg:text-sm text-xs" type="text" placeholder="Nariman Commodity Services Pvt. Ltd."  onChange={storeData}/>
                     </div>
                     <div className='flex items-right justify-right' >
                         <p className='underline underline-offset-1 text-[#3491FF] text-base mx-3 ml-auto cursor-pointer'  
@@ -130,7 +130,7 @@ const MyProfileForm = (props) => {
 
 
             <hr className=' border-t-[#EBEBEB] '></hr>
-            <div className='flex justify-between px-5 md:px-12 py-6'>
+            <div className='flex justify-between px-5 lg:px-12  py-6'>
                 <div className='font-semibold text-xl text-left  text-[#3D3D3D]'>Provide your GST details</div>
                 <div className='font-medium text-xl text-end text-[#3D3D3D] cursor-pointer'>
                 {Details == "True"?<svg onClick={()=>{setDetails("false")}}  xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
@@ -144,53 +144,53 @@ const MyProfileForm = (props) => {
             </div>
             <hr className='pb-4 border-t-[#EBEBEB]'></hr>
             <div className={`flex justify-between ${Details=="false"?' input-border-all':""}`}>
-                <div className='w-1/2 md:px-12 px-4'>
+                <div className='1/2  lg:px-12 px-4'>
                     <div className='flex items-center'>
-                        <div className="uppercase md:text-sm text-xs  font-medium justify-start w-2/5  text-[#3D3D3D]">*Client name</div>
-                        <input disabled={Details=="True"?true:false} name="clientname" className="input-border w-3/5 bg-[#F4FAFF] text-[#9E9E9E] mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline justify-end text-sm" type="text" placeholder="Nariman Commodity Services Pvt. Ltd."  onChange={storeData}/>
+                        <div className="uppercase lg:text-sm text-xs  font-medium justify-start w-2/5  text-[#3D3D3D]">*Client name</div>
+                        <input disabled={Details=="True"?true:false} name="clientname" className="input-border w-3/5 bg-[#F4FAFF] text-[#9E9E9E] mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline justify-end lg:text-sm text-xs" type="text" placeholder="Nariman Commodity Services Pvt. Ltd."  onChange={storeData}/>
                     </div>
                     <div className='flex items-center	'>
-                        <div className="uppercase md:text-sm text-xs  font-medium w-2/5 text-[#3D3D3D]	"></div>
-                        <input disabled={Details=="True"?true:false} name="clientname2" className="input-border w-3/5 bg-[#F4FAFF] text-[#9E9E9E] mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline text-sm" type="text" placeholder="Nariman Finvest Pvt. Ltd."  onChange={storeData}/>
+                        <div className="uppercase lg:text-sm text-xs  font-medium w-2/5 text-[#3D3D3D]	"></div>
+                        <input disabled={Details=="True"?true:false} name="clientname2" className="input-border w-3/5 bg-[#F4FAFF] text-[#9E9E9E] mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline lg:text-sm text-xs" type="text" placeholder="Nariman Finvest Pvt. Ltd."  onChange={storeData}/>
                     </div>
                     <div className='flex items-center	'>
-                        <div className="uppercase md:text-sm text-xs  font-medium w-2/5 text-[#3D3D3D]	">*PAN No</div>
-                        <input disabled={Details=="True"?true:false} name="panno" className="input-border w-3/5 bg-[#F4FAFF] text-[#9E9E9E] mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline text-sm" type="text" placeholder="Nariman Commodity Services Pvt. Ltd."  onChange={storeData}/>
+                        <div className="uppercase lg:text-sm text-xs  font-medium w-2/5 text-[#3D3D3D]	">*PAN No</div>
+                        <input disabled={Details=="True"?true:false} name="panno" className="input-border w-3/5 bg-[#F4FAFF] text-[#9E9E9E] mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline lg:text-sm text-xs" type="text" placeholder="Nariman Commodity Services Pvt. Ltd."  onChange={storeData}/>
                     </div>
                     {Detailcheck&&<div className='flex items-center mt-1'>
                         <p className='w-2/5'></p>
                         <p className="text-red-500 mx-2 w-3/5">{Detailcheck}</p>
                     </div>}
                 </div>
-                <div className='w-1/2 md:px-12 px-4	'>
+                <div className='1/2 lg:px-12 px-4	'>
                     <div className='flex items-center	'>
-                        <div className="uppercase md:text-sm text-xs  font-medium w-2/5 text-[#3D3D3D]">	*Provisional ID</div>
-                        <input disabled={Details=="True"?true:false} name="provisionalid" className="input-border w-3/5 bg-[#F4FAFF] text-[#9E9E9E] mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline text-sm" type="text" placeholder="27AACCN0286A1ZV"  onChange={storeData}/>
+                        <div className="uppercase lg:text-sm text-xs  font-medium w-2/5 text-[#3D3D3D]">	*Provisional ID</div>
+                        <input disabled={Details=="True"?true:false} name="provisionalid" className="input-border w-3/5 bg-[#F4FAFF] text-[#9E9E9E] mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline lg:text-sm text-xs" type="text" placeholder="27AACCN0286A1ZV"  onChange={storeData}/>
                     </div>
                     <div className='flex items-center'>
-                        <div className="uppercase md:text-sm text-xs  font-medium w-2/5 text-[#3D3D3D]	"></div>
-                        <input disabled={Details=="True"?true:false} name="provisionalid2" className="input-border w-3/5 bg-[#F4FAFF] text-[#9E9E9E] mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline text-sm" type="text" placeholder="27AABCN2859C1ZL"  onChange={storeData}/>
+                        <div className="uppercase lg:text-sm text-xs  font-medium w-2/5 text-[#3D3D3D]	"></div>
+                        <input disabled={Details=="True"?true:false} name="provisionalid2" className="input-border w-3/5 bg-[#F4FAFF] text-[#9E9E9E] mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline lg:text-sm text-xs" type="text" placeholder="27AABCN2859C1ZL"  onChange={storeData}/>
                     </div>
                 </div>
             </div>
 
             <div>
-                <div className='font-semibold text-xl text-left text-[#3D3D3D] ml-12 mt-8'>GST Release Document</div>
-                <div className='flex flex-wrap md:grid md:grid-cols-5 justify-between mx-10'>
+                <div className='font-semibold text-xl text-left text-[#3D3D3D] px-5 lg:px-12 py-6'>GST Release Document</div>
+                <div className='flex flex-wrap lg:grid lg:grid-cols-5 justify-around mx-10 gst-card'>
                     <SliderCard subTitle='Trade Plus' img={'/assets/img/svg-5.png'} />
                     <SliderCard subTitle='Estro' img={'/assets/img/svg-1.png'} />
                     <SliderCard subTitle='Cross' img={'/assets/img/svg-2.png'} />
                     <SliderCard subTitle='Commex' img={'/assets/img/svg-6.png'} />
                     <SliderCard subTitle='Pms' img={'/assets/img/svg-6.png'} />
                 </div>
-                <div className='md:mx-10 mx-3'>
+                <div className='lg:mx-10 mx-3'>
                     <Table />
                 </div>
             </div>
 
             <div>
-                <div className='font-semibold text-xl text-left md:ml-12 ml-6 md:my-8 my-3 text-[#3D3D3D]'>Products</div>
-                <div className='md:mx-10 mx-3'>
+                <div className='font-semibold text-xl text-left lg:ml-12 ml-6 md:my-8 my-3text-[#3D3D3D]'>Products</div>
+                <div className='lg:mx-10 mx-3'>
                     <ProductTabs />
                 </div>
             </div>

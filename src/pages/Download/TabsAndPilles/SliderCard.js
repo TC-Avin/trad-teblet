@@ -13,8 +13,8 @@ const Card =(props)=>{
         <div
           className={`${
             props.index == 1
-              ? "flex justify-center p-2  bg-slate-300 md:p-5 md:bg-[#f4faff] items-center drop-shadow-md md:w-80 w-52	  rounded-xl"
-              : "flex justify-center p-2  bg-slate-300 md:p-5 md:bg-[#FFFFFF] items-center drop-shadow-md md:w-80 w-52  rounded-xl"
+              ? "flex justify-center p-2  bg-white md:p-5 md:bg-[#f4faff] items-center drop-shadow-md w-80 width-class rounded-xl"
+              : "flex justify-center p-2  bg-white md:p-5 md:bg-[#FFFFFF] items-center drop-shadow-md w-80  width-class rounded-xl"
           }`}
         >
           <div className="items-center justify-self-center">

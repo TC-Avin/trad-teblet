@@ -11,14 +11,14 @@ const PmsDownload = (props) => {
         <div className='flex flex-wrap justify-between px-12	py-6'> 
         <div className='relative'>
 
-<h2 className="left-[27%] top-[-22px] absolute text-center md:text-2xl text-base font-medium text-[#000000]">
+<h2 className=" text-center lg:text-2xl text-base font-medium text-[#000000]">
 Head Office
 </h2>
     <SliderCard title='Head office' subTitle='PMS' img={'/assets/img/svg-1.png'} arrow={false} index={props.index}/>
     </div>
     <div className='relative'>
 
-<h2 className="left-[10%] top-[-22px] absolute text-center md:text-2xl text-base font-medium text-[#000000]">
+<h2 className=" text-center lg:text-2xl text-base font-medium text-[#000000]">
 Branch & Individual Client
 </h2>
     <SliderCard title='Knowledge Base' subTitle='Circular' img={'/assets/img/svg-7.svg'} arrow={false} index={props.index}/>

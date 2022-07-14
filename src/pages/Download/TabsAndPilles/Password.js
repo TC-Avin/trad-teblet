@@ -48,7 +48,7 @@ const Password = (props) => {
 
   return (
     <>
-      <div className="border back-forword-btn md:w-[40%] w-[70%] mx-auto rounded-2xl px-6 py-6 ">
+      <div className="border back-forword-btn lg:w-[40%] w-[70%] mx-auto rounded-2xl px-6 py-6 ">
         <div className="font-medium text-lg text-center  py-4 text-[#0A2A4A]">
           To access your Account enter password & Proceed
         </div>

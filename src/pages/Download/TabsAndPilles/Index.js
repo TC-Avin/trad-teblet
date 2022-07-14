@@ -73,7 +73,7 @@ const TabsAndPilles = () => {
   return (
     <div>
       <div>
-        <ul class="flex flex-wrap text-lg font-normal text-center text-[#9E9E9E]  m-8 justify-center">
+        <ul class="flex flex-wrap text-lg font-normal text-center text-[#9E9E9E]  md:m-8 m-4 justify-center">
           {tabs.map((data) => {
             return (
               <li class="mr-2">

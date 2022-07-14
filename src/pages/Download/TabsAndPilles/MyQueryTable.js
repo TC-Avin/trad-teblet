@@ -16,31 +16,31 @@ const MyQueryTable = () => {
     ];
   return (
     <div>
-        <div class="relative overflow-x-auto shadow-md sm:rounded-lg ">
+        <div class="relative overflow-x-auto shadow-lg sm:rounded-lg ">
             <table class="w-full text-sm text-center text-gray-500 dark:text-gray-400">
                 <thead class="text-xs text-white uppercase bg-[#3491FF] ">
                     <tr>
-                        <th scope="col" class="px-6 py-3 text-center text-base font-bold">Querie ID</th>
-                        <th scope="col" class="px-6 py-3 text-center text-base font-bold">Department</th>
-                        <th scope="col" class="px-6 py-3 text-left	w-1/3 text-base font-bold">Subject</th>
-                        <th scope="col" class="px-6 py-3 text-center text-base font-bold">Status</th>
-                        <th scope="col" class="px-6 py-3 text-center text-base font-bold">Date</th>
-                        <th scope="col" class="px-6 py-3 text-center text-base font-bold">Time</th>
-                        <th scope="col" class="px-6 py-3 text-center text-base font-bold">Type</th>
-                        <th scope="col" class="px-6 py-3 text-center text-base font-bold">Raised By</th>
+                        <th scope="col" class="px-6 py-3 text-center lg:text-base text-sm ">Querie ID</th>
+                        <th scope="col" class="px-6 py-3 text-center lg:text-base text-sm">Department</th>
+                        <th scope="col" class="px-6 py-3 text-left	w-1/3 lg:text-base text-sm">Subject</th>
+                        <th scope="col" class="px-6 py-3 text-center lg:text-base text-sm">Status</th>
+                        <th scope="col" class="px-6 py-3 text-center lg:text-base text-sm">Date</th>
+                        <th scope="col" class="px-6 py-3 text-center lg:text-base text-sm">Time</th>
+                        <th scope="col" class="px-6 py-3 text-center lg:text-base text-sm">Type</th>
+                        <th scope="col" class="px-6 py-3 text-center lg:text-base text-sm">Raised By</th>
                     </tr>
                 </thead>
                 <tbody>
                     {rows.map((row,i)=>(
                         <tr class={`${i%2==0&&'bg-[#F3F7FC]'}`}>
-                            <th class='py-4 border-l text-[#3D3D3D] text-lg font-medium'>{row.QuerieID}</th>
-                            <th class='py-4 border-l text-[#3D3D3D] text-lg font-medium'>{row.Department}</th>
-                            <th class='py-4 border-l text-left w-1/4 text-[#3D3D3D] text-lg font-medium pl-5'>{row.Subject}</th>
-                            <th class='py-4 border-l text-[#3D3D3D] text-lg font-medium'>{row.Status}</th>
-                            <th class='py-4 border-l text-[#3D3D3D] text-lg font-medium'>{row.Date}</th>
-                            <th class='py-4 border-l text-[#3D3D3D] text-lg font-medium'>{row.Time}</th>
-                            <th class='py-4 border-l text-[#3D3D3D] text-lg font-medium'>{row.Type}</th>
-                            <th class='py-4 border-l text-[#3D3D3D] text-lg font-medium'>{row.RaisedBy}</th>
+                            <th class='py-4 border-l text-[#3D3D3D] lg:text-lg text-sm font-medium'>{row.QuerieID}</th>
+                            <th class='py-4 border-l text-[#3D3D3D] lg:text-lg text-sm font-medium'>{row.Department}</th>
+                            <th class='py-4 border-l text-left w-1/4 text-[#3D3D3D] lg:text-lg text-sm font-medium pl-5'>{row.Subject}</th>
+                            <th class='py-4 border-l text-[#3D3D3D] lg:text-lg text-sm font-medium'>{row.Status}</th>
+                            <th class='py-4 border-l text-[#3D3D3D] lg:text-lg text-sm font-medium'>{row.Date}</th>
+                            <th class='py-4 border-l text-[#3D3D3D] lg:text-lg text-sm font-medium'>{row.Time}</th>
+                            <th class='py-4 border-l text-[#3D3D3D] lg:text-lg text-sm font-medium'>{row.Type}</th>
+                            <th class='py-4 border-l text-[#3D3D3D] lg:text-lg text-sm font-medium'>{row.RaisedBy}</th>
                         </tr>
                     ))}
                 </tbody>

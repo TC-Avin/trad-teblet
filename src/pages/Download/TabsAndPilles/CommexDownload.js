@@ -41,7 +41,7 @@ const CommexDownload = (props) => {
       <div className='flex flex-wrap justify-between px-12 download-sliders'>
       <div className='relative'>
 
-<h2 className="left-[27%] top-[-22px] absolute text-center md:text-2xl text-base font-medium text-[#000000]">
+<h2 className=" text-center md:text-2xl text-base font-medium text-[#000000]">
 Head Office
 </h2>
         <Slider  {...settings} className="slider-card pb-12">
@@ -52,8 +52,8 @@ Head Office
         </div>
         <div className='relative'>
 
-<h2 className="left-[10%] top-[-22px] absolute text-center md:text-2xl text-base font-medium text-[#000000]">
-Branch & Individual Client
+<h2 className=" text-center md:text-2xl text-base font-medium text-[#000000]">
+Branch & Individual Client  
 </h2>
         <Slider  {...settings} className="slider-card pb-12">
           <SliderCard title='Branch & Individual Client' subTitle='COMMNET' img={'/assets/img/svg-7.svg'} arrow={false} index={props.index} />
@@ -62,7 +62,7 @@ Branch & Individual Client
         </div>
         <div className='relative'>
 
-<h2 className="left-[20%] top-[-22px] absolute text-center md:text-2xl text-base font-medium text-[#000000]">
+<h2 className=" text-center md:text-2xl text-base font-medium text-[#000000]">
 Knowledge Base
 </h2>
         <Slider  {...settings} className="slider-card pb-12">

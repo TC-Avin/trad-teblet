@@ -2,9 +2,9 @@ import React from 'react'
 
 const MyAccountCard = () => {
   return (
-    <div className='px-12 pt-2 pb-8'>
+    <div className='lg:px-12 px-3 pt-2 pb-8'>
         <div className='flex'>
-        <div className='w-2/5 px-12	back-forword-btn  mr-10 rounded-2xl	pt-8'>
+        <div className='lg:w-2/5 w-1/2 lg:px-12 px-3 back-forword-btn  lg:mr-10 rounded-2xl lg:pt-8 pt-3 mr-2.5'>
             <div className='flex justify-between mb-2'>
                 <div>
                     <a href='#' className='text-[#3491FF] text-lg underline underline-offset-1'>Our Bank Account Details</a>
@@ -33,8 +33,8 @@ const MyAccountCard = () => {
                 <div className='font-bold ml-3 text-[#3D3D3D]'>39744127423</div>
             </div>
         </div>
-        <div className='w-1/5'></div>
-        <div className='w-2/5 px-12	back-forword-btn ml-10  rounded-2xl	pt-8'>
+        <div className='lg:w-1/5 w-1/9'></div>
+        <div className='lg:w-2/5 w-1/2 lg:px-12 px-3 back-forword-btn lg:mr-10 rounded-2xl lg:pt-8 pt-3 ml-2.5	'>
             <div className='flex justify-between mb-2'>
                 <div>
                     <a href='#' className='text-[#3491FF] text-lg  underline underline-offset-1'>Secmark Details</a>

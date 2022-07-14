@@ -72,12 +72,12 @@ class Table extends React.Component {
         return (
           <React.Fragment>
             <div className='flex justify-between ring-0	bg-[#3491FF] rounded-tl-2xl rounded-tr-2xl text-white'>
-                    <div class="px-6 py-3 text-lg font-medium text-center">Contact Person</div>
-                    <div class="px-6 py-3 text-lg font-medium text-center">Email</div>
-                    <div class="px-6 py-3 text-lg font-medium text-center">Telephone</div>
-                    <div class="px-6 py-3 text-lg font-medium text-center">Mobile</div>
-                    <div class="px-6 py-3 text-lg font-medium text-center">Description</div>
-                    <div class="px-6 py-3 text-lg font-medium text-center">Action</div>
+                    <div class="px-6 py-3 md:text-base text-lg  font-medium text-center">Contact Person</div>
+                    <div class="px-6 py-3 md:text-base text-lg font-medium text-center">Email</div>
+                    <div class="px-6 py-3 md:text-base text-lg font-medium text-center">Telephone</div>
+                    <div class="px-6 py-3 md:text-base text-lg font-medium text-center">Mobile</div>
+                    <div class="px-6 py-3 md:text-base text-lg font-medium text-center">Description</div>
+                    <div class="px-6 py-3 md:text-base text-lg font-medium text-center">Action</div>
             </div>
             <DataGrid
                 className=' py-4 rounded-b-2xl back-forword-btn font-medium text-lg'

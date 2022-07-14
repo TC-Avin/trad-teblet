@@ -170,3 +170,13 @@ textarea.w-full.h-full {
     left:73.8%;
     transform: translate(-50%, -50%);
 }
+
+@media screen and (max-width: 1024px) {
+    .slider-card  {  
+        /* width: 310px !important; */
+    }
+  }
+
+  .gst-card  .width-class{
+    width: 13rem !important;
+}

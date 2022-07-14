@@ -22,7 +22,7 @@ const TradePlusForm = (props) => {
             <label class="block text-[#0A2A4A] text-sm font-medium mb-2 " for="username">
             Clearing ID for BSE:
             </label>
-            <input name="BSE" class="shadow appearance-none border rounded md:w-96 w-72 py-2 px-3 text-[#808D9A] leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Enter your Clearing ID for BSE" 
+            <input name="BSE" class="shadow appearance-none border rounded lg:w-96 w-72 py-2 px-3 text-[#808D9A] leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Enter your Clearing ID for BSE" 
             onChange={storedata}/>
         </div>
         {props.check&&<div className="text-red-500 mx-2">Please Enter Details...</div>}
@@ -30,7 +30,7 @@ const TradePlusForm = (props) => {
             <label class="block text-[#0A2A4A] text-sm font-medium mb-2 " for="username">
             Clearing ID for NSE:
             </label>
-            <input  name="NSE" class="shadow appearance-none border rounded md:w-96 w-72  py-2 px-3 text-[#808D9A] leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Enter your Clearing ID for NSE" 
+            <input  name="NSE" class="shadow appearance-none border rounded lg:w-96 w-72  py-2 px-3 text-[#808D9A] leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Enter your Clearing ID for NSE" 
             onChange={storedata}/>
         </div>
         {props.check&&<div className="text-red-500 mx-2">Please Enter Details...</div>}

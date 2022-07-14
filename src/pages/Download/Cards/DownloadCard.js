@@ -61,10 +61,10 @@ const DownloadCard = () => {
 
   return (
     <div className='flex  bg-[#F4FAFF] w-full'>
-      <div className='w-1/2 md:my-28  md:px-28 px-10 my-10 '>
+      <div className='w-1/2 lg:my-28  lg:px-28 px-10 my-10 '>
         <DescriptionBox />
       </div>
-      <div className='w-1/2 md:my-28  md:px-20 px-10 my-10'>
+      <div className='w-1/2 lg:my-28  lg:px-20 px-10 my-10'>
         <div className='text-[#3491FF] font-bold mb-7 text-2xl '>Enter Your Details</div>
         <div>
       {

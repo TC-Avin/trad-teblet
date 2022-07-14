@@ -41,7 +41,7 @@ console.log("🚀 ~ file: ChangePassword.js ~ line 36 ~ validate ~ values", valu
     <>
       <div
         id="Change Password"
-        className="border back-forword-btn md:w-[40%] w-[70%] mx-auto rounded-2xl px-10 py-10 mb-6 "
+        className="border back-forword-btn lg:w-[40%] w-[70%] mx-auto rounded-2xl px-10 py-10 mb-6 "
       >
         <div className="flex justify-start cursor-pointer	"onClick={()=>{
         if(props.flag){

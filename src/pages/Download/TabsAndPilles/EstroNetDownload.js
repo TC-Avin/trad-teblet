@@ -44,7 +44,7 @@ const EstroNetDownload = (props) => {
 
         <div className='relative'>
 
-          <h2 className="left-[27%] top-[-22px] absolute text-center md:text-2xl text-base font-medium text-[#000000]">
+          <h2 className=" text-center md:text-2xl text-base font-medium text-[#000000]">
           Head Office
       </h2>
     <Slider  {...settings} className="slider-card pb-12">  
@@ -57,7 +57,7 @@ const EstroNetDownload = (props) => {
     </div>
     <div className='relative'>
 
-<h2 className="left-[10%] top-[-22px] absolute text-center md:text-2xl text-base font-medium text-[#000000]">
+<h2 className=" text-center md:text-2xl text-base font-medium text-[#000000]">
 Branch & Individual Client
 </h2>
     <Slider  {...settings} className="slider-card pb-12">  
@@ -69,7 +69,7 @@ Branch & Individual Client
     </div>
     <div className='relative'>
 
-<h2 className="left-[20%] top-[-22px] absolute text-center md:text-2xl text-base font-medium text-[#000000]">
+<h2 className="text-center md:text-2xl text-base font-medium text-[#000000]">
 Knowledge Base
 </h2>
     <Slider  {...settings} className="slider-card pb-12">  

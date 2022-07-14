@@ -19,7 +19,7 @@ const EsignDownload = (props) => {
       <div className="flex flex-wrap justify-between px-12 py-6">
       <div className='relative'>
 
-<h2 className="left-[27%] top-[-22px] absolute text-center md:text-2xl text-base font-medium text-[#000000]">
+<h2 className=" text-center lg:text-2xl text-base font-medium text-[#000000]">
 Head Office
 </h2>
         <SliderCard
@@ -32,7 +32,7 @@ Head Office
         </div>
         <div className='relative'>
 
-<h2 className="left-[10%] top-[-22px] absolute text-center md:text-2xl text-base font-medium text-[#000000]">
+        <h2 className=" text-center lg:text-2xl text-base font-medium text-[#000000]">
 Branch & Individual Client
 </h2>
         <SliderCard
@@ -46,7 +46,7 @@ Branch & Individual Client
         <div class="text-gray-600 body-font">
           <div className="single-slider px-5 py-0">
             <div>
-              <div className="flex justify-center p-2  bg-slate-300 md:p-5 bg-[#f4faff] items-center w-80  rounded-xl">
+              <div className="flex justify-center p-2  bg-slate-300 lg:p-5 bg-[#f4faff] items-center w-80  rounded-xl">
                 <div>
                 </div>
               </div>
