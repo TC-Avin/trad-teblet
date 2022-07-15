@@ -9,7 +9,7 @@ const DematRequest = ()=>{
     return (
         <>
         <section id="demate-request" className='text-gray-600 body-font bg-[#F4FAFF] py-20 '>
-            <div className='container relative px-20 mx-auto' >
+            <div className='container relative lg:px-20 px-0 mx-auto' >
                 <div className='container-title'>
                     <h2 className='title text-lg lg:text-2xl font-bold sm:text-3xl md:text-3xl pt-5 pb-0 text-[#0A2A4A] relative text-center 
                      
@@ -36,7 +36,7 @@ const DematRequest = ()=>{
                             after:content-[""] after:bg-[#D7F4EE] after:absolute after:h-[10rem]  after:w-[10rem]
                             after:rotate-[45deg] after:z-0 shadow-lg
                         ' key={index} >
-                            <div className='rounded-lg bg-white h-[10rem] flex items-center justify-center p-10 
+                            <div className='rounded-lg bg-white h-[10rem] flex items-center justify-center lg:p-10 p-5 overflow-auto
                             relative z-10'>
                                 {singleList.content}
                             </div>
