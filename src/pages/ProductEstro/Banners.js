@@ -4,13 +4,13 @@ const Banners = ()=>{
         <div className="hero-banner  bg-[#F5FAFE]" >
                 <div className='container flex flex-wrap  items-center mx-auto'>
                 <main className="px-10 py-8 md:py-10 md:px- ">
-                    <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 my-10 pl-10">
+                    <div className="grid gap-8 grid-cols-1 lg:grid-cols-2 lg:grid-cols-2 my-10 pl-10">
                         <div className="sm:text-center lg:text-left ">
                         {/* <h1 className="text-3xl tracking-tight font-Lexend text-[#0A2A4A] font-semibold md:leading-3 sm:mx-auto   lg:mx-0
                             ">
                         Electronic  Security Treasury Records Organiser 
                             </h1> */}
-                            <p className="text-2xl leading-4 tracking-tight font-Lexend text-[#0A2A4A] sm:text-2xl md:text-2xl font-medium md:leading-12 sm:mt-5  sm:max-w-xl sm:mx-auto   lg:mx-0
+                            <p className="text-2xl leading-4 tracking-tight font-Lexend text-[#0A2A4A] sm:text-2xl md:text-2xl font-medium md:leading-8 sm:mt-5  sm:max-w-xl sm:mx-auto   lg:mx-0
                             ">
                            Electronic  Security Treasury Records Organiser 
                             </p>

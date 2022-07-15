@@ -17,12 +17,21 @@ const ProductSlider = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 2,
+          slidesToScroll: 2,
           infinite: true,
           dots: true,
         },
       },
+      {
+        breakpoint: 768,
+        settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            infinite: true,
+            dots: true,
+        },
+    },
       {
         breakpoint: 600,
         settings: {
@@ -55,20 +64,21 @@ const ProductSlider = () => {
             {initalState.map((value, index) => (
               <div
                 key={index + "_value"}
-                className="  justify-center p-10 w-60  bg-white lg:p-10  lg:bg-[#FFFFFF] items-center drop-shadow-md flex flex-col rounded-xl slide-content">
+                className="  justify-center p-10 w-60 bg-slate-300 md:p-8  md:bg-[#FFFFFF] items-center drop-shadow-md  flex flex-col   rounded-xl slide-content"
+              >
                 <div className="items-center justify-self-center ">
-                  <img
+                  <img 
                     alt="No Image"
                     src={value.image}
-                    className="h-20 w-20 mx-auto"
+                    className="h-20 w-20 sm:h-10 sm:w-10 md:h-10 md:w-10 mx-auto"
                   />
-                  <h2 className="text-center text-xl mb-2 mt-4 font-medium text-[#3491FF]">
+                  <h2 className="text-center text-xl sm:text-lg md:text-lg mb-2 mt-4 font-medium text-[#3491FF]">
                     {value.title}
                   </h2>
-                  <p className="  text-normal mb-2 font-medium text-[#0A2A4A] text-center">
+                  <p className="  text-normal mb-2 sm:text-sm md:text-sm font-medium text-[#0A2A4A] text-center">
                     {value.use}
                   </p>
-                  <div className="  text-sm mt-4 font-small text-[#808D9A] text-justify ">
+                  <div className="  text-sm mt-4 sm:text-sm  font-small md:font-light text-[#808D9A] text-justify md:text-sm ">
                     {value.description}
                   </div>
                 </div>

@@ -4,7 +4,7 @@ const Banner = ()=>{
         <div className="hero-banner  bg-[#F5FAFE]" >
                 <div className='container flex flex-wrap justify-between items-center pl-10 pr-10  md:my-5 mx-auto'>
                 <main className="py-2 md:py-10   px-4 md:px- ">
-                    <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-2  my-10">
+                    <div className="grid gap-8 grid-cols-1 lg:grid-cols-2 lg:grid-cols-2  my-10">
                         <div className="sm:text-center lg:text-left">
                         {/* <h1 className="text-3xl tracking-tight font-Lexend text-[#0A2A4A] font-semibold md:leading-3 lg:mx-auto  pb-5 lg:mx-0
                             ">

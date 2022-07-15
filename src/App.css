@@ -165,11 +165,23 @@ textarea.w-full.h-full {
     left: 27%;
     transform: translate(-50%, -50%);
 }
+
+@media screen and (max-width: 1024px) {
+    .side-line{  
+        left:20%;
+    }
+  }
 .side-line1{
     top: 50%;
     left:73.8%;
     transform: translate(-50%, -50%);
 }
+
+@media screen and (max-width: 1024px) {
+    .side-line1{  
+        left:80.8%;
+    }
+  }
 
 @media screen and (max-width: 1024px) {
     .slider-card  {  

@@ -21,11 +21,11 @@ const Products = () => {
       {dataList.map((item,index)=>(
         <div className="px-4 md:w-1/3" key={index}>
             <Link to={item.link}>
-              <div className="h-80 border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden mt-4">
-                  <img className="w-24 h-24 place-self-center object-cover object-center mx-auto mt-10" src={item.img} alt="blog"/>
+              <div className="lg:h-80 h-64 border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden mt-4">
+                  <img className="lg:w-24 w-16 lg:h-24 w-16 place-self-center object-cover object-center mx-auto lg:mt-10 mt-6" src={item.img} alt="blog"/>
                   <div className="p-6">
                     <h1 className="title-font text-lg font-medium text-center text-[#3491FF] mb-3 underline">{item.title}</h1>
-                    <p className="leading-relaxed mb-3 text-center text-[#808D9A]">{item.desc}</p>
+                    <p className=" mb-3 text-center text-[#808D9A] lg:text-[1rem] text-[0.75rem]">{item.desc}</p>
                   </div>
               </div>
             </Link>

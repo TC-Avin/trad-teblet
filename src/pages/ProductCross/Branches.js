@@ -20,7 +20,7 @@ function Branches() {
                 
         <h2 className='title text-lg lg:text-2xl font-bold sm:text-3xl md:text-3xl pt-5 pb-0 text-[#0A2A4A] relative text-center pb-10 '>Branches</h2>
         <hr className='pb-4 border-t-[#BEE1FB]'/>
-                <ol className="   grid md:grid-cols-3  branch-timeline-list ">
+                <ol className="   grid sm:grid-cols-3  branch-timeline-list ">
                   
                   <li>
                     <div className="img-handler">   
@@ -29,7 +29,7 @@ function Branches() {
                     <div className='txt-handler-bottom 
                      '>
                         <p className='text-[#808D9A] text-[1rem] text-center'>
-                        Reports on branch profitability and inter branch comparisons.                        </p>
+                        Reports on branch profitability and inter branch comparisons.</p>
                     </div>
                   </li>
                   <li>

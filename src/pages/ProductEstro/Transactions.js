@@ -7,9 +7,9 @@ function Transactions() {
             <section className="text-gray-600 body-font bg-[#F4FAFF]">
                 <h2 className='title text-lg lg:text-2xl font-bold sm:text-3xl md:text-3xl pt-5 pb-0 text-[#0A2A4A] text-center'>Transactions</h2>
                 <div className="container px-5 py-12 mx-auto ">
-                    <div className="flex flex-wrap -m-4 ">
-                        <div className="lg:w-1/5 md:w-1/2 p-4 w-full">
-                            <div className=" rounded-xl w-60 h-64 mx-auto bg-gradient-to-r  pt-[6px] from-[#0080F6]  via-[#05C876]  to-[#6EE7B7]">
+                    <div className="flex flex-wrap justify-around  ">
+                        <div className="">
+                            <div className=" rounded-xl w-64    my-2 h-64 mx-auto bg-gradient-to-r  pt-[6px] from-[#0080F6]  via-[#05C876]  to-[#6EE7B7]">
                                 <div className="flex flex-col  h-full bg-white text-black rounded-lg p-4">
                                     <div className=' gradient-circle flex rounded-full w-[4.2rem] h-[4.2rem] mx-auto items-right bg-gradient-to-r p-[1px] from-[#0080F6]  via-[#05C876]  to-[#6EE7B7]' >
                                         <div className=' flex justify-start rounded-full items-center h-full bg-white text-white  p-4 w-full text-center' >
@@ -23,8 +23,8 @@ function Transactions() {
                             </div>
 
                         </div>
-                        <div className="lg:w-1/5 md:w-1/2 p-4 w-full">
-                            <div className=" rounded-xl w-60 h-64 mx-auto bg-gradient-to-r  pt-[6px] from-[#0080F6]  via-[#05C876]  to-[#6EE7B7]">
+                        <div className="">
+                            <div className=" rounded-xl w-64    my-2 h-64 mx-auto bg-gradient-to-r  pt-[6px] from-[#0080F6]  via-[#05C876]  to-[#6EE7B7]">
                                 <div className="flex flex-col  h-full bg-white text-black rounded-lg p-4">
                                     <div className=' gradient-circle flex rounded-full w-[4rem] h-[4rem] mx-auto items-right bg-gradient-to-r p-[1px] from-[#0080F6]  via-[#05C876]  to-[#6EE7B7]' >
                                         <div className=' flex justify-start rounded-full items-center h-full bg-white text-white  p-4 w-full text-center' >
@@ -38,8 +38,8 @@ function Transactions() {
                             </div>
 
                         </div>
-                        <div className="lg:w-1/5 md:w-1/2 p-4 w-full">
-                            <div className=" rounded-xl w-60 h-64 mx-auto bg-gradient-to-r  pt-[6px] from-[#0080F6]  via-[#05C876]  to-[#6EE7B7]">
+                        <div className="">
+                            <div className=" rounded-xl w-64    my-2 h-64 mx-auto bg-gradient-to-r  pt-[6px] from-[#0080F6]  via-[#05C876]  to-[#6EE7B7]">
                                 <div className="flex flex-col  h-full bg-white text-black rounded-lg p-4">
                                     <div className=' gradient-circle flex rounded-full w-[4rem] h-[4rem] mx-auto items-right bg-gradient-to-r p-[1px] from-[#0080F6]  via-[#05C876]  to-[#6EE7B7]' >
                                         <div className=' flex justify-start rounded-full items-center h-full bg-white text-white  p-4 w-full text-center' >
@@ -53,8 +53,8 @@ function Transactions() {
                             </div>
 
                         </div>
-                        <div className="lg:w-1/5 md:w-1/2 p-4 w-full">
-                            <div className=" rounded-xl w-60 h-64 mx-auto bg-gradient-to-r  pt-[6px] from-[#0080F6]  via-[#05C876]  to-[#6EE7B7]">
+                        <div className="">
+                            <div className=" rounded-xl w-64    my-2 h-64 mx-auto bg-gradient-to-r  pt-[6px] from-[#0080F6]  via-[#05C876]  to-[#6EE7B7]">
                                 <div className="flex flex-col  h-full bg-white text-black rounded-lg p-4">
                                     <div className=' gradient-circle flex rounded-full w-[4rem] h-[4rem] mx-auto items-right bg-gradient-to-r p-[1px] from-[#0080F6]  via-[#05C876]  to-[#6EE7B7]' >
                                         <div className=' flex justify-start rounded-full items-center h-full bg-white text-white  p-4 w-full text-center' >
@@ -68,8 +68,8 @@ function Transactions() {
                             </div>
 
                         </div>
-                        <div className="lg:w-1/5 md:w-1/2 p-4 w-full">
-                            <div className=" rounded-xl w-60 h-64 mx-auto bg-gradient-to-r  pt-[6px] from-[#0080F6]  via-[#05C876]  to-[#6EE7B7]">
+                        <div className="">
+                            <div className=" rounded-xl w-64    my-2 h-64 mx-auto bg-gradient-to-r  pt-[6px] from-[#0080F6]  via-[#05C876]  to-[#6EE7B7]">
                                 <div className="flex flex-col  h-full bg-white text-black rounded-lg p-4">
                                     <div className=' gradient-circle flex rounded-full w-[4rem] h-[4rem] mx-auto items-right bg-gradient-to-r p-[1px] from-[#0080F6]  via-[#05C876]  to-[#6EE7B7]' >
                                         <div className=' flex justify-start rounded-full items-center h-full bg-white text-white  p-4 w-full text-center' >

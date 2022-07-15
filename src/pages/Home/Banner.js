@@ -7,7 +7,7 @@ const Banner = () => {
           <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-2  my-10">
             <div className="sm:text-center lg:text-left">
               <h1
-                className="lg:text-4xl text-2xl leading-8 tracking-tight text-[#3491FF] sm:text-2xl md:text-2xl font-medium md:leading-12 sm:mt-5  sm:max-w-xl sm:mx-auto md:mt-5  lg:mx-0
+                className="lg:text-4xl text-2xl leading-8 tracking-tight text-[#3491FF] sm:text-2xl md:text-2xl font-medium md:leading-8 sm:mt-5  sm:max-w-xl sm:mx-auto md:mt-5  lg:mx-0
                 ">
                 Expert in Backoffice Software for Trading Stock Exchange.
               </h1>

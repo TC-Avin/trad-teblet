@@ -36,7 +36,7 @@ function Accounts() {
                                     </svg><span className="text-gray-500 circle-text">01</span>
                                </div>
                                 <div className="flex-grow ml-2">
-                                    <p className="text-[#808D9A] text-[1rem] font-small p-4 bg-[#F4FAFF]">Includes powerful accounting software rich with functions of a full fledge accounting software.</p>
+                                    <p className="text-[#808D9A] lg:text-[1rem] text-[0.75rem] font-small lg:ml-[5rem] ml-[4rem] lg:p-8 p-6 bg-[#F4FAFF]">Includes powerful accounting software rich with functions of a full fledge accounting software.</p>
                                 </div>
                             </div>
                         </div>
@@ -66,7 +66,7 @@ function Accounts() {
                                     </svg><span className="text-gray-500 circle-text">05</span>
                                </div>                              
                                  <div className="flex-grow">
-                                    <p className="text-[#808D9A] text-[1rem] font-small ml-5 p-4 bg-[#F4FAFF]">Bank reconciliation facility.</p>
+                                    <p className="text-[#808D9A] lg:text-[1rem] text-[0.75rem] font-small lg:ml-[5rem] ml-[4rem] lg:p-8 p-6 bg-[#F4FAFF]">Bank reconciliation facility.</p>
                                 </div>
                             </div>
                         </div>
@@ -96,7 +96,7 @@ function Accounts() {
                                     </svg><span className="text-gray-500 circle-text">02</span>
                                </div>                                 
                                <div className="flex-grow ml-3">
-                                    <p className="text-[#808D9A] text-[1rem] font-small p-4 bg-[#F4FAFF]">Facility to print all types of voucher on-line.</p>
+                                    <p className="text-[#808D9A] lg:text-[1rem] text-[0.75rem] font-small lg:ml-[5rem] ml-[4rem] lg:p-8 p-6 bg-[#F4FAFF]">Facility to print all types of voucher on-line.</p>
                                 </div>
                             </div>
                         </div>
@@ -125,7 +125,7 @@ function Accounts() {
                                     </defs>
                                     </svg><span className="text-gray-500 circle-text">06</span>
                                </div>                                <div className="flex-grow">
-                                    <p className="text-[#808D9A] text-[1rem] font-small ml-9 p-4 bg-[#F4FAFF]">Facility to import collection file in XLS file, this file may have been received branches or broking section.</p>
+                                    <p className="text-[#808D9A] lg:text-[1rem] text-[0.75rem] font-small lg:ml-[5rem] ml-[4rem] lg:p-8 p-6 bg-[#F4FAFF]">Facility to import collection file in XLS file, this file may have been received branches or broking section.</p>
                                 </div>
                             </div>
                         </div>
@@ -154,7 +154,7 @@ function Accounts() {
                                     </defs>
                                     </svg><span className="text-gray-500 circle-text">03</span>
                                </div>                               <div className="flex-grow">
-                                    <p className="text-[#808D9A] text-[1rem] font-small ml-4 p-4 bg-[#F4FAFF]">Handling account schedules in accordance with Schedule VI of companies act.</p>
+                                    <p className="text-[#808D9A] lg:text-[1rem] text-[0.75rem] font-small lg:ml-[5rem] ml-[4rem] lg:p-8 p-6 bg-[#F4FAFF]">Handling account schedules in accordance with Schedule VI of companies act.</p>
                                 </div>
                             </div>
                         </div>
@@ -182,8 +182,9 @@ function Accounts() {
                                         </linearGradient>
                                     </defs>
                                     </svg><span className="text-gray-500 circle-text">07</span>
-                               </div>                                 <div className="flex-grow">
-                                    <p className="text-[#808D9A] text-[1rem] font-small ml-[5rem] p-8 bg-[#F4FAFF]">For TRADEPLUS users – facility to transfer debit to TRADEPLUS by database to database transfer before making payout from TRADEPLUS, this transfer is without any file export / import and can be done to the extent of credit available in TRADEPLUS ledger and entry in both databases carried out simultaneously.</p>
+                               </div>                                 
+                               <div className="flex-grow h-28">
+                                    <p className="text-[#808D9A] lg:text-[1rem] text-[0.75rem] font-small lg:ml-[5rem] ml-[4rem] lg:p-8 p-6 bg-[#F4FAFF]">For TRADEPLUS users – facility to transfer debit to TRADEPLUS by database to database transfer before making payout from TRADEPLUS, this transfer is without any file export / import and can be done to the extent of credit available in TRADEPLUS ledger and entry in both databases carried out simultaneously.</p>
                                 </div>
                             </div>
                         </div>
@@ -212,7 +213,7 @@ function Accounts() {
                                     </defs>
                                     </svg><span className="text-gray-500 circle-text">04</span>
                                </div>                                 <div className="flex-grow">
-                                    <p className="text-[#808D9A] text-[1rem] font-small p-4 ml-4 bg-[#F4FAFF]">All reports, ledgers, balance sheets on Dot Matrix / Page Printers.</p>
+                                    <p className="text-[#808D9A] lg:text-[1rem] text-[0.75rem] font-small lg:ml-[5rem] ml-[4rem] lg:p-8 p-6 bg-[#F4FAFF]">All reports, ledgers, balance sheets on Dot Matrix / Page Printers.</p>
                                 </div>
                             </div>
                         </div>

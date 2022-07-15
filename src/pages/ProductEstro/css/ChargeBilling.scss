@@ -273,6 +273,7 @@ $brand-color:#df8625;
                         width: 15rem;
                         padding: 0rem 1rem;
                         margin: 0 auto;
+
                     }
                     .ps-top {
                         position: absolute;
@@ -522,3 +523,19 @@ $brand-color:#df8625;
 .ps-sp-bot , .ps-sp-top {
     display: none   !important;
 }
+
+@media only screen and (max-width: 1024px) {
+    .ps-timeline-sec .container ol.ps-timeline li p  {
+      width: 12rem;
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .ps-timeline-sec .container ol.ps-timeline li .img-handler-bot  {
+      top: 11rem;
+    }
+    .ps-timeline-sec .container ol.ps-timeline li .img-handler-top  {
+        top: -7rem;
+      }
+  }
+
