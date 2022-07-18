@@ -80,7 +80,7 @@
     /* .flex-grow.ml-2 {
         margin-left: 2rem;
     } */
-    p.text-\[\#808D9A\].text-\[1rem\].font-medium.ml-8.p-4.bg-\[\#ffffff\] {
+    /* p.text-\[\#808D9A\].text-\[1rem\].font-medium.ml-8.p-4.bg-\[\#ffffff\] {
         margin-left: 61px;
     }
     p.text-\[\#808D9A\].text-\[1rem\].font-small.ml-7.p-4.bg-\[\#ffffff\] {
@@ -94,7 +94,7 @@
     }
     p.text-\[\#808D9A\].text-\[1rem\].font-medium.ml-\[2rem\].p-4.bg-\[\#ffffff\] {
         margin-left: 2rem;
-    }
+    } */
     span.border-dashed.border-t-\[5px\].border-\[\#0080F6\].w-\[33rem\].relative.end-point {
         border-top-width: 3px;
     }
