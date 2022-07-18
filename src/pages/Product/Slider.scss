@@ -1,7 +1,7 @@
-$media-desktop: "only screen and (max-width : 1024px)";
-$media-tablet: "only screen and (max-width : 768px)";
-$media-mobile: "only screen and (max-width : 600px)";
-$media-mobile-sm: "only screen and (max-width : 480px)";
+$media-desktop: "only screen and (min-width : 1024px)";
+$media-tablet: "only screen and (min-width : 768px)";
+$media-mobile: "only screen and (min-width : 600px)";
+$media-mobile-sm: "only screen and (min-width : 480px)";
 
 
 .circle-effect {
@@ -12,7 +12,7 @@ $media-mobile-sm: "only screen and (max-width : 480px)";
     min-height: 500px;
     margin-bottom: 36px;
     .slick-next{
-        @media only screen and (max-width: 768px) {
+        @media only screen and (min-width: 768px) {
             width: 50px;
             right: 0px;
             top: 40%;
@@ -65,14 +65,14 @@ $media-mobile-sm: "only screen and (max-width : 480px)";
     align-items: center;
     background: transparent;
 
-    @media only screen and (max-width: 768px){
+    @media only screen and (min-width: 768px){
         top: 5rem;
     }
 
 }
 
 .circleThing-center{
-    @media only screen and (max-width: 768px){
+    @media only screen and (min-width: 768px){
         top: 3rem;
     }
 
@@ -91,7 +91,7 @@ div.circleThing-right::before {
     border-bottom-left-radius: 0%;
     right: 30px;
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (min-width: 768px) {
         right: -16%;
         width: 70%;
         height: 72%;
@@ -113,7 +113,7 @@ div.circleThing-left::before {
     right: 210px;
     top: 81.8%;
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (min-width: 768px) {
         right: 45%;
         width: 70%;
         height: 72%;
@@ -130,7 +130,7 @@ div.circleThing-center::before {
     border-top-left-radius: 300px;
     border-top-right-radius: 300px;
     bottom: 114px;
-    @media only screen and (max-width: 768px){
+    @media only screen and (min-width: 768px){
         width: 278px;
         height: 119px;
         bottom: 99px;
@@ -167,7 +167,7 @@ div.circleThing-center::before {
     height: 300px;
     z-index: 100;
 
-    @media only screen and (max-width: 768px){
+    @media only screen and (min-width: 768px){
         width: 220px;
         height: 210px;
     }
@@ -179,7 +179,7 @@ div.circleThing-center::before {
     height: 300px;
     z-index: 100;
     position: relative;
-    @media only screen and (max-width: 768px){
+    @media only screen and (min-width: 768px){
         width: 211px;
         height: 200px;
         overflow-y: auto;
