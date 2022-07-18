@@ -23,7 +23,7 @@ const EsignDownload = (props) => {
 Head Office
 </h2>
         <SliderCard
-          title="Head office"
+       
           subTitle="E-sign"
           img={"/assets/img/svg-1.png"}
           arrow={false}
@@ -36,7 +36,7 @@ Head Office
 Branch & Individual Client
 </h2>
         <SliderCard
-          title="Knowledge Base"
+         
           subTitle="Circular"
           img={"/assets/img/svg-7.svg"}
           arrow={false}

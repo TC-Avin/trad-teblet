@@ -70,15 +70,15 @@ const ProductSlider = () => {
                   <img 
                     alt="No Image"
                     src={value.image}
-                    className="h-20 w-20 sm:h-10 sm:w-10 md:h-10 md:w-10 mx-auto"
+                    className="h-20 w-20 sm:h-10 sm:w-10 mx-auto"
                   />
-                  <h2 className="text-center text-xl sm:text-lg md:text-lg mb-2 mt-4 font-medium text-[#3491FF]">
+                  <h2 className="text-center text-xl sm:text-lg mb-2 mt-4 font-medium text-[#3491FF]">
                     {value.title}
                   </h2>
-                  <p className="  text-normal mb-2 sm:text-sm md:text-sm font-medium text-[#0A2A4A] text-center">
+                  <p className="  text-normal mb-2 sm:text-sm  font-medium text-[#0A2A4A] text-center">
                     {value.use}
                   </p>
-                  <div className="  text-sm mt-4 sm:text-sm  font-small md:font-light text-[#808D9A] text-justify md:text-sm ">
+                  <div className="  text-sm mt-4 sm:text-sm font-small sm:font-light text-[#808D9A] text-justify md:text-sm ">
                     {value.description}
                   </div>
                 </div>

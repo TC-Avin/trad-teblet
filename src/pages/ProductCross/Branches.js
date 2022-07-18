@@ -26,8 +26,7 @@ function Branches() {
                     <div className="img-handler">   
                     <img src={ImgIcon1} className="w-[10rem] " />
                     </div>
-                    <div className='txt-handler-bottom 
-                     '>
+                    <div className='txt-handler-bottom'>
                         <p className='text-[#808D9A] text-[1rem] text-center'>
                         Reports on branch profitability and inter branch comparisons.</p>
                     </div>
@@ -38,9 +37,7 @@ function Branches() {
                         Facility has been provided to create full functional branches that can operate without CDAS and yet provide clients of branches with timely information and services including DIS issue from branch and DIS entry.                        </p>
                     </div>
 
-                    <div className="img-handler-bottom 
-                    
-                    ">   
+                    <div className="img-handler-bottom">   
                     <img src={ImgIcon2} className="w-[10rem] " />
                     </div>
 
@@ -56,6 +53,7 @@ function Branches() {
                     </div>
 
                   </li>
+                  
                 </ol>
               </div>
           </div>

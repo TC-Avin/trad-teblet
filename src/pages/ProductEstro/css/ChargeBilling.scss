@@ -421,22 +421,51 @@ $brand-color:#df8625;
     &:after {
         content: "";
         border-top: 2px dashed #29AEAA;
-        width: 14rem;
+        width: 15.5rem;
         position: absolute;
-        bottom: 14rem;
-        left: -7rem;
+        bottom: 12rem;
+        left: -8rem;
         transform: rotate(39deg);
     }
     &:before {
         content: "";
         border-top: 2px dashed #29AEAA;
-        width: 13.5rem;
+        width: 15.5rem;
         position: absolute;
-        bottom: 13rem;
-        right: -7rem;
-        transform: rotate(330deg);
+        bottom: 12rem;
+        right: -8rem;
+        transform: rotate(323deg);
     }
 }
+
+@media only screen and (max-width: 1024px) {
+    .img-handler-bottom {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        svg {
+            width: 50%;
+        }
+        &:after {
+            content: "";
+            border-top: 2px dashed #29AEAA;
+            width: 8.5rem;
+            position: absolute;
+            bottom: 14rem;
+            left: -4rem;
+            transform: rotate(40deg);
+        }
+        &:before {
+            content: "";
+            border-top: 2px dashed #29AEAA;
+            width: 8.5rem;
+            position: absolute;
+            bottom: 14rem;
+            right: -4rem;
+            transform: rotate(323deg);
+        }
+    }
+  }
 
 .branch-timeline-list li:last-child {
     .img-handler-bottom {
@@ -452,14 +481,38 @@ $brand-color:#df8625;
         &:after {
             content: "";
             border-top: 2px dashed #29AEAA;
-            width: 14.5rem;
+            width: 15.5rem;
             position: absolute;
-            bottom: 15rem;
-            left: -7rem;
+            bottom: 12rem;
+            left: -8rem;
             transform: rotate(39deg);
         }
     }
 }
+@media only screen and (max-width: 1024px) {
+    .branch-timeline-list li:last-child {
+        .img-handler-bottom {
+            &:before {
+                content: "";
+                border-top: 2px dashed #29AEAA;
+                width: 0px;
+                position: absolute;
+                bottom: 0px;
+                right: 0px;
+                transform: rotate(330deg);
+            }
+            &:after {
+                content: "";
+                border-top: 2px dashed #29AEAA;
+                width: 9rem;
+                position: absolute;
+                bottom: 15rem;
+                left: -4rem;
+                transform: rotate(40deg);
+            }
+        }
+    }
+  }
 
 // hexagon border 
 // .hexagon{

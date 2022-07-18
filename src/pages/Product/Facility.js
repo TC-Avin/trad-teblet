@@ -58,7 +58,6 @@ const Facility = ()=>{
           <div className='title-box text-center px-5 py-6'>
                   <h2 className='title text-lg lg:text-2xl font-bold sm:text-3xl md:text-3xl pt-8 pb-4 text-[#0A2A4A]'>Charge Facility</h2>
                   <p class="text-[1rem] leading-relaxed font-medium mx-auto text-[#808D9A]">Various charges that may be levied over and above brokerage and may be specifically shown in contract / Bill.</p>
-
               </div>
               <div className="container flex flex-wrap justify-between items-center mx-auto mb-0 px-5 py-6">
              

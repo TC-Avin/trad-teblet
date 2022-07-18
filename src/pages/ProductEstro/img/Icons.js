@@ -287,7 +287,7 @@ export const Img3 = ()=><>
 
 export const Img4 = ()=><><svg
 width={232}
-height={359}
+height={356}
 viewBox="0 0 232 359"
 fill="none"
 xmlns="http://www.w3.org/2000/svg"

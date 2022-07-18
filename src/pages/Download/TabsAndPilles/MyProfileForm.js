@@ -144,7 +144,7 @@ const MyProfileForm = (props) => {
             </div>
             <hr className='pb-4 border-t-[#EBEBEB]'></hr>
             <div className={`flex justify-between ${Details=="false"?' input-border-all':""}`}>
-                <div className='1/2  lg:px-12 px-4'>
+                <div className='w-1/2  lg:px-12 px-4'>
                     <div className='flex items-center'>
                         <div className="uppercase lg:text-sm text-xs  font-medium justify-start w-2/5  text-[#3D3D3D]">*Client name</div>
                         <input disabled={Details=="True"?true:false} name="clientname" className="input-border w-3/5 bg-[#F4FAFF] text-[#9E9E9E] mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline justify-end lg:text-sm text-xs" type="text" placeholder="Nariman Commodity Services Pvt. Ltd."  onChange={storeData}/>
@@ -162,9 +162,9 @@ const MyProfileForm = (props) => {
                         <p className="text-red-500 mx-2 w-3/5">{Detailcheck}</p>
                     </div>}
                 </div>
-                <div className='1/2 lg:px-12 px-4	'>
+                <div className='w-1/2 lg:px-12 px-4	'>
                     <div className='flex items-center	'>
-                        <div className="uppercase lg:text-sm text-xs  font-medium w-2/5 text-[#3D3D3D]">	*Provisional ID</div>
+                        <div className="uppercase lg:text-sm text-xs  font-medium w-2/5 text-[#3D3D3D]">*Provisional ID</div>
                         <input disabled={Details=="True"?true:false} name="provisionalid" className="input-border w-3/5 bg-[#F4FAFF] text-[#9E9E9E] mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline lg:text-sm text-xs" type="text" placeholder="27AACCN0286A1ZV"  onChange={storeData}/>
                     </div>
                     <div className='flex items-center'>
@@ -199,18 +199,3 @@ const MyProfileForm = (props) => {
 }
 
 export default MyProfileForm
-
-// const storeData = (e) =>{
-//     let Obj = {...data}
-//     Obj[e.target.name]=e.target.value
-//     setdata(Obj)
-// }
-
-// const handlechange = () =>{
-//     if(Object.values(data).length==0 || Object.values(data).includes("")){
-//         setcheck(true)
-//       }else{
-//       setprofile ("True")
-//       setcheck(false)
-//     }
-// }

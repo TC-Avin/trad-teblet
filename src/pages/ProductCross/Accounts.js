@@ -12,7 +12,7 @@ function Accounts() {
                     <div className="flex flex-wrap -m-2">
                         <div className="p-2 lg:w-1/2 md:w-1/2 w-full">
                             <div className="h-full flex items-center p-4 ">
-                               <div className='relative garident-circle'>
+                               <div className='relative garident-circle w-[25%]'>
                                     <svg className="absolute" width="100" height="100" viewBox="0 0 165 165" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <mask id="path-1-inside-1_1133_14086" fill="white">
                                         <path d="M141.814 82.0596C141.814 70.1306 138.198 58.4818 131.443 48.6498C124.689 38.8177 115.112 31.2641 103.977 26.9854C92.8414 22.7067 80.6708 21.9039 69.07 24.6828C57.4693 27.4618 46.9834 33.6919 38.9954 42.5515L82.8145 82.0596H141.814Z" />
@@ -35,14 +35,14 @@ function Accounts() {
                                     </defs>
                                     </svg><span className="text-gray-500 circle-text">01</span>
                                </div>
-                                <div className="flex-grow ml-2">
+                                <div className="flex-grow ml-2 w-[75%]">
                                     <p className="text-[#808D9A] lg:text-[1rem] text-[0.75rem] font-small lg:ml-[5rem] ml-[4rem] lg:p-8 p-6 bg-[#F4FAFF]">Includes powerful accounting software rich with functions of a full fledge accounting software.</p>
                                 </div>
                             </div>
                         </div>
                         <div className="p-2 lg:w-1/2 md:w-1/2 w-full">
                             <div className="h-full flex items-center  p-4 rounded-lg">
-                            <div className='relative garident-circle'>
+                            <div className='relative garident-circle w-[25%]'>
                                     <svg className="absolute" width="100" height="100" viewBox="0 0 165 165" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <mask id="path-1-inside-1_1133_14086" fill="white">
                                         <path d="M141.814 82.0596C141.814 70.1306 138.198 58.4818 131.443 48.6498C124.689 38.8177 115.112 31.2641 103.977 26.9854C92.8414 22.7067 80.6708 21.9039 69.07 24.6828C57.4693 27.4618 46.9834 33.6919 38.9954 42.5515L82.8145 82.0596H141.814Z" />
@@ -65,14 +65,14 @@ function Accounts() {
                                     </defs>
                                     </svg><span className="text-gray-500 circle-text">05</span>
                                </div>                              
-                                 <div className="flex-grow">
+                                 <div className="flex-grow w-[75%]">
                                     <p className="text-[#808D9A] lg:text-[1rem] text-[0.75rem] font-small lg:ml-[5rem] ml-[4rem] lg:p-8 p-6 bg-[#F4FAFF]">Bank reconciliation facility.</p>
                                 </div>
                             </div>
                         </div>
                         <div className="p-2 lg:w-1/2 md:w-1/2 w-full">
                             <div className="h-full flex items-center  p-4 rounded-lg">
-                            <div className='relative garident-circle'>
+                            <div className='relative garident-circle w-[25%]'>
                                     <svg className="absolute" width="100" height="100" viewBox="0 0 165 165" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <mask id="path-1-inside-1_1133_14086" fill="white">
                                         <path d="M141.814 82.0596C141.814 70.1306 138.198 58.4818 131.443 48.6498C124.689 38.8177 115.112 31.2641 103.977 26.9854C92.8414 22.7067 80.6708 21.9039 69.07 24.6828C57.4693 27.4618 46.9834 33.6919 38.9954 42.5515L82.8145 82.0596H141.814Z" />
@@ -95,14 +95,14 @@ function Accounts() {
                                     </defs>
                                     </svg><span className="text-gray-500 circle-text">02</span>
                                </div>                                 
-                               <div className="flex-grow ml-3">
+                               <div className="flex-grow ml-3 w-[75%]">
                                     <p className="text-[#808D9A] lg:text-[1rem] text-[0.75rem] font-small lg:ml-[5rem] ml-[4rem] lg:p-8 p-6 bg-[#F4FAFF]">Facility to print all types of voucher on-line.</p>
                                 </div>
                             </div>
                         </div>
                         <div className="p-2 lg:w-1/2 md:w-1/2 w-full">
                             <div className="h-full flex items-center  p-4 rounded-lg">
-                            <div className='relative garident-circle'>
+                            <div className='relative garident-circle w-[25%]'>
                                     <svg className="absolute" width="100" height="100" viewBox="0 0 165 165" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <mask id="path-1-inside-1_1133_14086" fill="white">
                                         <path d="M141.814 82.0596C141.814 70.1306 138.198 58.4818 131.443 48.6498C124.689 38.8177 115.112 31.2641 103.977 26.9854C92.8414 22.7067 80.6708 21.9039 69.07 24.6828C57.4693 27.4618 46.9834 33.6919 38.9954 42.5515L82.8145 82.0596H141.814Z" />
@@ -124,14 +124,14 @@ function Accounts() {
                                         </linearGradient>
                                     </defs>
                                     </svg><span className="text-gray-500 circle-text">06</span>
-                               </div>                                <div className="flex-grow">
+                               </div>                                <div className="flex-grow w-[75%]">
                                     <p className="text-[#808D9A] lg:text-[1rem] text-[0.75rem] font-small lg:ml-[5rem] ml-[4rem] lg:p-8 p-6 bg-[#F4FAFF]">Facility to import collection file in XLS file, this file may have been received branches or broking section.</p>
                                 </div>
                             </div>
                         </div>
                         <div className="p-2 lg:w-1/2 md:w-1/2 w-full">
                             <div className="h-full flex items-center  p-4 rounded-lg">
-                            <div className='relative garident-circle'>
+                            <div className='relative garident-circle w-[25%]'>
                                     <svg className="absolute" width="100" height="100" viewBox="0 0 165 165" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <mask id="path-1-inside-1_1133_14086" fill="white">
                                         <path d="M141.814 82.0596C141.814 70.1306 138.198 58.4818 131.443 48.6498C124.689 38.8177 115.112 31.2641 103.977 26.9854C92.8414 22.7067 80.6708 21.9039 69.07 24.6828C57.4693 27.4618 46.9834 33.6919 38.9954 42.5515L82.8145 82.0596H141.814Z" />
@@ -153,14 +153,14 @@ function Accounts() {
                                         </linearGradient>
                                     </defs>
                                     </svg><span className="text-gray-500 circle-text">03</span>
-                               </div>                               <div className="flex-grow">
+                               </div>                               <div className="flex-grow w-[75%]">
                                     <p className="text-[#808D9A] lg:text-[1rem] text-[0.75rem] font-small lg:ml-[5rem] ml-[4rem] lg:p-8 p-6 bg-[#F4FAFF]">Handling account schedules in accordance with Schedule VI of companies act.</p>
                                 </div>
                             </div>
                         </div>
                         <div className="p-2 lg:w-1/2 md:w-1/2 w-full">
                             <div className="h-full flex items-center  p-4 rounded-lg">
-                            <div className='relative garident-circle'>
+                            <div className='relative garident-circle w-[25%]'>
                                     <svg className="absolute" width="100" height="100" viewBox="0 0 165 165" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <mask id="path-1-inside-1_1133_14086" fill="white">
                                         <path d="M141.814 82.0596C141.814 70.1306 138.198 58.4818 131.443 48.6498C124.689 38.8177 115.112 31.2641 103.977 26.9854C92.8414 22.7067 80.6708 21.9039 69.07 24.6828C57.4693 27.4618 46.9834 33.6919 38.9954 42.5515L82.8145 82.0596H141.814Z" />
@@ -183,14 +183,14 @@ function Accounts() {
                                     </defs>
                                     </svg><span className="text-gray-500 circle-text">07</span>
                                </div>                                 
-                               <div className="flex-grow h-28">
+                               <div className="flex-grow h-28 w-[75%]">
                                     <p className="text-[#808D9A] lg:text-[1rem] text-[0.75rem] font-small lg:ml-[5rem] ml-[4rem] lg:p-8 p-6 bg-[#F4FAFF]">For TRADEPLUS users – facility to transfer debit to TRADEPLUS by database to database transfer before making payout from TRADEPLUS, this transfer is without any file export / import and can be done to the extent of credit available in TRADEPLUS ledger and entry in both databases carried out simultaneously.</p>
                                 </div>
                             </div>
                         </div>
                         <div className="p-2 lg:w-1/2 md:w-1/2 w-full">
                             <div className="h-full flex items-center  p-4 rounded-lg">
-                            <div className='relative garident-circle'>
+                            <div className='relative garident-circle w-[25%]'>
                                     <svg className="absolute" width="100" height="100" viewBox="0 0 165 165" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <mask id="path-1-inside-1_1133_14086" fill="white">
                                         <path d="M141.814 82.0596C141.814 70.1306 138.198 58.4818 131.443 48.6498C124.689 38.8177 115.112 31.2641 103.977 26.9854C92.8414 22.7067 80.6708 21.9039 69.07 24.6828C57.4693 27.4618 46.9834 33.6919 38.9954 42.5515L82.8145 82.0596H141.814Z" />
@@ -212,7 +212,8 @@ function Accounts() {
                                         </linearGradient>
                                     </defs>
                                     </svg><span className="text-gray-500 circle-text">04</span>
-                               </div>                                 <div className="flex-grow">
+                               </div>                                 
+                               <div className="flex-grow w-[75%]">
                                     <p className="text-[#808D9A] lg:text-[1rem] text-[0.75rem] font-small lg:ml-[5rem] ml-[4rem] lg:p-8 p-6 bg-[#F4FAFF]">All reports, ledgers, balance sheets on Dot Matrix / Page Printers.</p>
                                 </div>
                             </div>

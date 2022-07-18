@@ -51,10 +51,10 @@ const Deliveries = () => {
             {
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
                     infinite: true,
-                    dots: true
+                    dots: false
                 }
             },
             {
@@ -87,7 +87,7 @@ const Deliveries = () => {
                             {initaltext.map((value, index) => (
                                 <div
                                     key={index + '_value'}
-                                    className="rounded-xl w-52 h-[18.3rem] mx-auto   bg-gradient-to-r p-[2px] to-[#6EE7B7] via-[#05C876] from-[#0080F6]"
+                                    className="rounded-xl w-52 h-[18.3rem] mx-auto  bg-gradient-to-r p-[2px] to-[#6EE7B7] via-[#05C876] from-[#0080F6]"
                                 >
                                     <div className="items-center justify-self-center w-full h-[18rem]">
                                         <div className="flex flex-col justify-between h-full bg-[#F4FAFF]  text-white rounded-lg p-4 relative 
@@ -102,7 +102,7 @@ const Deliveries = () => {
                                                     </span>
                                                 </div>
                                             </span>
-                                <h2 className="text-center text-[1rem] title-font font-medium mt-[4rem] text-[#808D9A] z-10 p-6">{value.title}</h2>
+                                <h2 className="text-center lg:text-[1rem] text-[0.75rem] title-font font-medium mt-[4rem] text-[#808D9A] z-10 p-6">{value.title}</h2>
                                         </div>
                                     </div>
                                 </div>

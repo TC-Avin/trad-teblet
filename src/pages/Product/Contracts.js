@@ -26,14 +26,14 @@ const Contracts = () => {
 
                         </div>
 
-                        <div className='center-box relative justify-center items-center flex  mb-20 rounded-full w-200 h-200 mx-auto  mt-20 bg-gradient-to-r p-[1.5px] to-[#56a8f4] via-[#05C876] from-[#bbd6eb]' >
+                        <div className='center-box relative justify-center items-center flex mb-20 rounded-full  lg:w-200 lg:h-200 md:h-100 md:w-100 mx-auto mt-20 bg-gradient-to-r p-[1.5px] to-[#56a8f4] via-[#05C876] from-[#bbd6eb]' >
 
                             <div className='left-side-arrow absolute ' >
                                 <img src={leftTop} className="left-top" />
                                 <img src={leftBottom} className="left-bottom" />
                             </div>
 
-                            <div className=' flex  justify-between items-center text-center bg-white text-white rounded-full p-4 w-full h-full z-10' >
+                            <div className=' flex  justify-between items-center text-center bg-white text-white rounded-full md:w-100 md:h-100 p-4 w-full h-full z-10' >
                                 <h2 className=' text-center main-title 
                             title text-lg lg:text-2xl font-bold sm:text-3xl md:text-3xl pt-8 pb-4 text-[#0A2A4A]
                             '>Contracts & Bills</h2>
@@ -49,7 +49,7 @@ const Contracts = () => {
                         </div>
 
                         <div className='right-box z-10' >
-                            <div className='top flex  mb-20 rounded-xl w-100 h-30 mx-auto  mt-10 bg-gradient-to-r p-[1.5px] to-[#56a8f4] via-[#0FCE7E] from-[#bbd6eb]' >
+                            <div className='top flex  mb-2 rounded-xl w-100 h-30 mx-auto  mt-10 bg-gradient-to-r p-[1.5px] to-[#56a8f4] via-[#0FCE7E] from-[#bbd6eb]' >
                                 <div className='flex justify-between items-center h-full bg-white text-white rounded-lg p-4 w-full text-center' >
                                     <p className='text-gray-500 text-center justify-center ml-10 text-[1rem] font-medium'>Bills may be rounded off to nearest Rupee, etc.</p>
                                 </div>

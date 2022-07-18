@@ -18,6 +18,179 @@
     height: 250px;
 }
 
+@media (max-width: 1024px) {
+    .container.px-20.py-6.mx-auto {
+        padding-left: 2px !important;
+        padding-right: 2px !important;
+    }
+    .container.flex.flex-wrap.px-20.py-10.mx-auto {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    #contract-section .center-box {
+        width: 200px;
+        height: 200px;
+    }
+    #contract-section .main-title {
+        font-size: 17px;
+        width: 100%;
+        text-align: center;
+    }
+    #container.flex.flex-wrap.px-20.py-10.mx-auto {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
+    .center-box.relative.justify-center.items-center.flex.mb-20.rounded-full.lg\:w-200.lg\:h-200.md\:h-100.md\:w-100.mx-auto.mt-20.bg-gradient-to-r.p-\[1\.5px\].to-\[\#56a8f4\].via-\[\#05C876\].from-\[\#bbd6eb\] {
+        margin-top: 10rem;
+    }
+    .top.flex.mb-20.rounded-xl.w-100.h-30.mx-auto.mt-10.bg-gradient-to-r.p-\[1\.5px\].to-\[\#56a8f4\].via-\[\#0FCE7E\].from-\[\#bbd6eb\] {
+        margin-top: 1rem;
+    }
+    .top.flex.rounded-xl.w-100.h-30.mx-auto.mt-10.bg-gradient-to-r.p-\[1\.5px\].to-\[\#56a8f4\].via-\[\#05C876\].from-\[\#bbd6eb\] {
+        margin-top: 4rem;
+    }
+    .text-\[1rem\] {
+        margin-left: 5px;
+        font-size: 14px !important;
+    }
+    span.text-3xl.lg\:text-5xl.font-bold.sm\:text-3xl.md\:text-3xl.absolute.-left-5.top-1.mr-4.text-opacity-20.text-\[\#3491FF\] {
+        top: 9px;
+        left: 20px;
+    }
+    span.text-3xl.lg\:text-5xl.font-bold.sm\:text-3xl.md\:text-3xl.absolute.bottom-10.mr-4.text-opacity-20.text-\[\#3491FF\] {
+        left: 42px;
+        top: 31px;
+    }
+    span.text-3xl.lg\:text-5xl.font-bold.sm\:text-3xl.md\:text-3xl.absolute.top-7.mr-4.text-opacity-20.text-\[\#3491FF\] {
+        left: 43px;
+    }
+    span.text-3xl.lg\:text-5xl.font-bold.sm\:text-3xl.md\:text-3xl.absolute.-left-4.top-1.mr-4.text-opacity-20.text-\[\#3491FF\] {
+        left: 23px;
+    }
+    #deliveries-section .slick-next {
+        left: 61% !important;
+    }
+    #deliveries-section .slick-prev {
+        left: 31% !important;
+    }
+    .after\:w-\[90\%\]::after {
+        content: var(--tw-content);
+        width: 84% !important;
+    }
+    /* .flex-grow.ml-2 {
+        margin-left: 2rem;
+    } */
+    p.text-\[\#808D9A\].text-\[1rem\].font-medium.ml-8.p-4.bg-\[\#ffffff\] {
+        margin-left: 61px;
+    }
+    p.text-\[\#808D9A\].text-\[1rem\].font-small.ml-7.p-4.bg-\[\#ffffff\] {
+        margin-left: 53px;
+    }
+    p.text-\[\#808D9A\].text-\[1rem\].font-medium {
+        margin-left: 32px;
+    }
+    p.text-\[\#808D9A\].text-\[1rem\].font-medium.ml-\[4rem\].p-4.bg-\[\#ffffff\] {
+        margin-left: 4rem;
+    }
+    p.text-\[\#808D9A\].text-\[1rem\].font-medium.ml-\[2rem\].p-4.bg-\[\#ffffff\] {
+        margin-left: 2rem;
+    }
+    span.border-dashed.border-t-\[5px\].border-\[\#0080F6\].w-\[33rem\].relative.end-point {
+        border-top-width: 3px;
+    }
+    p.w-\[60\%\].text-\[\#808D9A\].text-\[18px\].ml-\[2rem\] {
+        font-size: 14px;
+    }
+    span.border-dashed.border-t-\[5px\].border-\[\#0080F6\].w-\[28rem\].relative.end-point {
+        width: 25rem !important;
+        border-top-width: 3px !important;
+    }
+    span.border-dashed.border-t-\[5px\].border-\[\#0080F6\].w-\[24rem\].relative.end-point {
+        border-top-width: 3px !important;
+        width: 19rem !important;
+    }
+    .flex.justify-center.w-\[20rem\].h-40.bg-slate-300.p-5.md\:bg-\[\#FFFFFF\].items-center.drop-shadow-md.rounded-xl {
+        width: 13rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    #contract-section .center-box {
+        width: 150px;
+        height: 150px;
+    }
+    #contract-section .main-title {
+        font-size: 17px;
+        width: 100%;
+        text-align: center;
+    }
+    #container.flex.flex-wrap.px-20.py-10.mx-auto {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
+    .center-box.relative.justify-center.items-center.flex.mb-20.rounded-full.lg\:w-200.lg\:h-200.md\:h-100.md\:w-100.mx-auto.mt-20.bg-gradient-to-r.p-\[1\.5px\].to-\[\#56a8f4\].via-\[\#05C876\].from-\[\#bbd6eb\] {
+        margin-top: 10rem;
+    }
+    .text-\[1rem\] {
+        margin-left: 5px;
+        font-size: 14px !important;
+    }
+    span.text-3xl.lg\:text-5xl.font-bold.sm\:text-3xl.md\:text-3xl.absolute.-left-5.top-1.mr-4.text-opacity-20.text-\[\#3491FF\] {
+        top: 9px;
+        left: 20px;
+    }
+    span.text-3xl.lg\:text-5xl.font-bold.sm\:text-3xl.md\:text-3xl.absolute.bottom-10.mr-4.text-opacity-20.text-\[\#3491FF\] {
+        left: 42px;
+        top: 31px;
+    }
+    span.text-3xl.lg\:text-5xl.font-bold.sm\:text-3xl.md\:text-3xl.absolute.top-7.mr-4.text-opacity-20.text-\[\#3491FF\] {
+        left: 43px;
+    }
+    span.text-3xl.lg\:text-5xl.font-bold.sm\:text-3xl.md\:text-3xl.absolute.-left-4.top-1.mr-4.text-opacity-20.text-\[\#3491FF\] {
+        left: 23px;
+    }
+    #deliveries-section .slick-next {
+        left: 63% !important;
+    }
+    #deliveries-section .slick-prev {
+        left: 30% !important;
+    }
+    .after\:w-\[90\%\]::after {
+        content: var(--tw-content);
+        width: 84% !important;
+    }
+    .container.flex.flex-wrap.px-20.py-10.mx-auto {
+        padding-left: 3px !important;
+        padding-right: 3px !important;
+    }
+    p.text-\[\#808D9A\].text-\[1rem\].font-medium.ml-8.p-4 {
+        margin-left: 3rem;
+    }
+    p.text-\[\#808D9A\].text-\[1rem\].font-medium.ml-\[4rem\].p-4.bg-\[\#ffffff\] {
+        margin-left: 4rem;
+    }
+    p.text-\[\#808D9A\].text-\[1rem\].font-medium.ml-\[2rem\].p-4.bg-\[\#ffffff\] {
+        margin-left: 2rem;
+    }
+    span.border-dashed.border-t-\[5px\].border-\[\#0080F6\].w-\[33rem\].relative.end-point {
+        border-top-width: 3px;
+    }
+    p.w-\[60\%\].text-\[\#808D9A\].text-\[18px\].ml-\[2rem\] {
+        font-size: 14px;
+    }
+    span.border-dashed.border-t-\[5px\].border-\[\#0080F6\].w-\[28rem\].relative.end-point {
+        width: 25rem !important;
+        border-top-width: 3px !important;
+    }
+    span.border-dashed.border-t-\[5px\].border-\[\#0080F6\].w-\[24rem\].relative.end-point {
+        border-top-width: 3px !important;
+        width: 19rem !important;
+    }
+    .flex.justify-center.w-\[20rem\].h-40.bg-slate-300.p-5.md\:bg-\[\#FFFFFF\].items-center.drop-shadow-md.rounded-xl {
+        width: 13rem !important;
+    }
+}
+
 #contract-section .bottom {
     margin-top: 200px;
 }

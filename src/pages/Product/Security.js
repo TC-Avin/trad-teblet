@@ -46,7 +46,7 @@ const Security = () => {
               <div className='flex justify-left items-center pb-3 ' >
                 <Poligon className="relative" counting="01" />
                 <LineImg className=" w-[33rem] relative" />
-                <p className='w-[60%] text-[#808D9A]  text-[18px]   ml-[2rem] '>
+                <p className='w-[60%] text-[#808D9A]  lg:text-[18px] text-[12px] ml-[2rem] '>
                   Password for each user along with authority / restriction setting for individual activity.
                 </p>
               </div>
@@ -54,42 +54,42 @@ const Security = () => {
               <div className='flex justify-left items-center pb-3  ' >
                 <Poligon className=" ml-[5rem] relative" counting="02" />
                 <LineImg className=" w-[28rem] relative" />
-                <p className='w-[60%] text-[#808D9A]  text-[18px]   ml-[2rem] '>
+                <p className='w-[60%] text-[#808D9A]  lg:text-[18px] text-[12px] ml-[2rem] '>
                   Stores client code as in trade file of exchange for verification against unauthorized modification.
                 </p>
               </div>
               <div className='flex justify-left items-center pb-3  ' >
                 <Poligon className="ml-[9rem] relative" counting="03" />
                 <LineImg className=" w-[24rem] relative" />
-                <p className='w-[60%] text-[#808D9A]  text-[18px]   ml-[2rem] '>
+                <p className='w-[60%] text-[#808D9A]  lg:text-[18px] text-[12px] ml-[2rem] '>
                   Security of client / server and RDBMS Database.
                 </p>
               </div>
               <div className='flex justify-left items-center pb-3  ' >
                 <Poligon className="ml-[13rem] relative" counting="04" />
                 <LineImg className=" w-[19rem] relative" />
-                <p className='w-[60%] text-[#808D9A]  text-[18px]   ml-[2rem] '>
+                <p className='w-[60%] text-[#808D9A] lg:text-[18px] text-[12px] ml-[2rem] '>
                   Automatic locking of settlement on generation of bills.
                 </p>
               </div>
               <div className='flex justify-left items-center pb-3  ' >
                 <Poligon className="ml-[9rem] relative" counting="05" />
                 <LineImg className=" w-[24rem] relative" />
-                <p className='w-[60%] text-[#808D9A]  text-[18px]   ml-[2rem] '>
+                <p className='w-[60%] text-[#808D9A] lg:text-[18px] text-[12px] ml-[2rem] '>
                   If any change is done to trade data after generation of bill (this however can be done by authorized persons only), the settlement number will be shown in Red till the time account posting for the settlement is carried out.
                 </p>
               </div>
               <div className='flex justify-left items-center pb-3  ' >
                 <Poligon className="ml-[5rem] relative" counting="06" />
                 <LineImg className=" w-[28rem] relative" />
-                <p className='w-[60%] text-[#808D9A]  text-[18px]   ml-[2rem] '>
+                <p className='w-[60%] text-[#808D9A]  lg:text-[18px] text-[12px] ml-[2rem] '>
                   Demat records are locked and assigned various status to prevent undue delivery / double deliveries etc.
                 </p>
               </div>
               <div className='flex justify-left items-center pb-3  ' >
                 <Poligon className="relative" counting="07" />
                 <LineImg className=" w-[33rem] relative" />
-                <p className='w-[60%] text-[#808D9A]  text-[18px]   ml-[2rem] '>
+                <p className='w-[60%] text-[#808D9A] lg:text-[18px] text-[12px] ml-[2rem] '>
                   Each user may be restricted / permitted to access data of selected company / exchange / segment.
                 </p>
               </div>

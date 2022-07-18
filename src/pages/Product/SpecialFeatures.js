@@ -29,16 +29,16 @@ function SpecialFeatures() {
                     <div class="flex flex-wrap -m-4 ">
                         {dataList.map((item)=>(
                                  <div class=" lg:w-1/2 md:w-full p-12 ">
-                                 <a href="#" class="block p-6 h-[10rem]  md:w-full bg-white rounded-lg border border-gray-200 shadow-md relative">
+                                 <a href="#" class="block p-4 lg:p-6 h-[10rem]  md:w-full bg-white rounded-lg border border-gray-200 shadow-md relative">
                                      <div className='absolute garidents-svgImg'>
                                          {item.icons}
                                      </div>
-                                     <p class="font-normal text-[#808D9A] text-[1rem]  text-left p-6">
+                                     <p class="font-normal text-[#808D9A] lg:text-[1rem] text-[0.75rem]  text-left p-8 lg:p-6">
                                         {item.desc}
                                      </p>
                                  </a>
                              </div>
-                        ))}
+                        ))} 
                        
                     </div>
                 </div>

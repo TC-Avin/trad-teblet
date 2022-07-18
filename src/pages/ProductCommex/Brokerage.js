@@ -1,4 +1,5 @@
 import React from 'react'
+import "./brokerage.scss";
 const C1 = require('./img/c-1.png');
 const C2 = require('./img/c-2.png');
 
@@ -9,11 +10,74 @@ function Brokerage() {
     <section id="commex-brokerage" className="text-gray-600 body-font ">
       
         <div className="container px-5 py-12 mx-auto ">
-            <div className="flex flex-col text-center w-full mt-[2rem] mb-[10rem]">
+            <div className="flex flex-col text-center w-full mt-[2rem] mb-[10rem] md:mb-0">
                 <h2 className="title text-lg lg:text-2xl font-bold sm:text-3xl md:text-3xl pt-0 pb-0 text-[#0A2A4A]">Brokerage Facility</h2>
             </div>
 
-            <div className='grid grid-cols-5   '>
+            <div className='main-grid grid-on-left  ' >
+              <div className='grid-items' >
+              <div className='relative '  >
+              <div className="rounded-full w-[13rem] h-[13rem] mx-auto  mt-10 bg-gradient-to-r p-[12px] from-[#0080F6]  via-[#05C876]  to-[#6EE7B7] relative shadow">
+                  <div className=" flex-col  h-full bg-white text-white rounded-full p-4 flex justify-center items-center">
+                      <p className='tetx-[400] text- md:text-md lg text-center text-[#808D9A]  '> For each slab a Minimum / Percent / Maximum / Fixed brokerage may be defined. </p>
+                  </div>
+              </div>
+                
+            </div>
+
+              </div>
+              <div className='grid-items' >
+              <div className='relative ' >
+              <div className="rounded-full w-[13rem] h-[13rem] mx-auto  mt-10 bg-gradient-to-r p-[12px] from-[#0080F6]  via-[#05C876]  to-[#6EE7B7] relative shadow">
+                  <div className=" flex-col  h-full bg-white text-white rounded-full p-4 flex justify-center items-center">
+                  <p className='tetx-[400] text-lg  md:text-md text-center text-[#808D9A] '> Minimum Brokerage per contract may also be defined.
+ </p>
+                  </div>
+              </div>
+
+            </div>
+ </div>
+              <div className='grid-items' >
+                
+            <div className='relative' >
+              <div className="rounded-full w-[13rem] h-[13rem] mx-auto  mt-10 bg-gradient-to-r p-[12px] from-[#0080F6]  via-[#05C876]  to-[#6EE7B7] relative shadow">
+                  <div className=" flex-col  h-full bg-white text-white rounded-full p-4 flex justify-center items-center">
+                  <p className='tetx-[400] text-lg  md:text-md text-center text-[#808D9A] '>   Speculation, squaring off brokerages can be defined for same client. </p>
+                  </div>
+              </div>
+
+            </div>
+
+ </div>
+              <div className='grid-items' >
+                
+                
+            <div className='relative ' >
+              <div className="rounded-full w-[13rem] h-[13rem] mx-auto  mt-10 bg-gradient-to-r p-[12px] from-[#0080F6]  via-[#05C876]  to-[#6EE7B7] relative shadow">
+                  <div className=" flex-col  h-full bg-white text-white rounded-full p-4 flex justify-center items-center">
+                  <p className='tetx-[400] text-lg  md:text-md text-center text-[#808D9A] '> Brokerage discounts may be offerred based on daily turnover.
+ </p>
+                  </div>  
+              </div>
+
+            </div>
+             </div>
+              <div className='grid-items' >
+                
+              <div className='relative ' >
+              <div className="rounded-full w-[13rem] h-[13rem] mx-auto  mt-10 bg-gradient-to-r p-[12px] from-[#0080F6]  via-[#05C876]  to-[#6EE7B7] relative shadow">
+                  <div className="flex flex-col  h-full bg-white text-white rounded-full p-4 justify-center items-center">
+                  <p className='tetx-[400] text-lg  md:text-md text-center text-[#808D9A] '> Introducing person’s brokerage may be credited to his accounts on settlement posting. </p>
+                  </div>
+              </div>
+            </div>
+
+ </div>
+            </div>
+    
+            <div className='clearfix' ></div>
+
+            <div className='grid grid-cols-5  mt-[10rem]   desktop-grid  '>
 
             <div className='relative left-[2rem]'  >
               <div className="rounded-full w-[15rem] h-[15rem] mx-auto  mt-10 bg-gradient-to-r p-[12px] from-[#0080F6]  via-[#05C876]  to-[#6EE7B7] relative">

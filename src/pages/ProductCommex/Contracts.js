@@ -20,7 +20,7 @@ const Contracts = () => {
                             </div>
                             <div className='bottom flex   rounded-xl w-100 h-30 mx-auto  mt-20 bg-gradient-to-r p-[1.5px] to-[#56a8f4] via-[#0FCE7E] from-[#bbd6eb] ' >
                                 <div className='flex justify-between items-center h-full bg-white text-white rounded-lg p-4 w-full text-center' >
-                                    <p className='text-gray-500 text-[1rem] ml-[5rem] p-2'>Bill Printing for multiple days</p>
+                                    <p className='text-gray-500 text-[1rem] lg:ml-[5rem] p-2'>Bill Printing for multiple days</p>
                                 </div>
                             </div>
 
@@ -51,13 +51,13 @@ const Contracts = () => {
                         <div className='right-box z-10 mt-[.5rem]' >
                             <div className='top flex  mb-20 rounded-xl w-100 h-30 mx-auto  mt-10 bg-gradient-to-r p-[1.5px] to-[#56a8f4] via-[#0FCE7E] from-[#bbd6eb]' >
                                 <div className='flex justify-between items-center h-full bg-white text-white rounded-lg p-4 w-full text-center' >
-                                    <p className='text-gray-500 text-center text-[1rem] justify-center ml-[3rem] p-2'> Bills may be rounded off to nearest Rupee, etc.</p>
+                                    <p className='text-gray-500 text-center text-[1rem] justify-center lg:ml-[3rem] p-2'> Bills may be rounded off to nearest Rupee, etc.</p>
                                 </div>
                             </div>
                             <div className='bottom flex   rounded-xl w-100 h-30 mx-auto mt-20 bg-gradient-to-r p-[1.5px] to-[#56a8f4] via-[#0FCE7E] from-[#bbd6eb] ' >
                                 <div className='flex justify-between items-center h-full  bg-white text-white rounded-lg p-4 w-full text-center' >
 
-                                    <p className='text-gray-500 text-[1rem] text-center p-2 ml-[1.5rem]'>Confirmations may be forwarded to client via e-mail.</p>
+                                    <p className='text-gray-500 text-[1rem] text-center p-2 lg:ml-[1.5rem]'>Confirmations may be forwarded to client via e-mail.</p>
                                 </div>
                             </div>
                         </div>

@@ -6,7 +6,7 @@ const Card =(props)=>{
   return (
     <div class="text-gray-600 body-font">
       
- <div className='singled-slider px-5 py-0'>
+ <div className='singled-slider px-6 py-0'>
      
       <div className=" flex flex-wrap justify-between items-center  my-6">
       

@@ -22,7 +22,8 @@ const ProductTabs = () => {
         <ul className='border rounded-lg w-full flex'>  
            {tabs.map((data)=>{
             return (<div class="mr-2 w-1/4">
-                <div  className={`inline-block py-3 px-4 rounded-lg m-1.5 w-full text-center text-lg cursor-pointer ${TabsButton==data.name ? 'active bg-[#3491FF] text-white':'hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-white'}`}  aria-current="page" onClick={()=>{setTabsButton(data.name)}} >{data.name}</div>
+                <div  className={`inline-block py-3 px-4 rounded-lg m-1.5 w-full text-center text-lg cursor-pointer ${TabsButton==data.name ? 'active bg-[#3491FF] text-white':'hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-white'}`}  
+                aria-current="page" onClick={()=>{setTabsButton(data.name)}} >{data.name}</div>
                 </div>)
            })}  
         </ul>
