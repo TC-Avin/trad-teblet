@@ -27,12 +27,12 @@ function Special() {
                 <div class="container px-5 py-14 mx-auto flex flex-wrap">
                     <div class="flex flex-wrap -m-4 ">
                         {dataList.map((item)=>(
-                                 <div class=" lg:w-1/3 md:w-full p-12 ">
+                                 <div class=" lg:w-1/3 md:w-1/2 sm:w-[490px] p-12 ">
                                  <a href="#" class="block p-6 h-[10rem]  md:w-full bg-white rounded-lg border border-gray-200 shadow-md relative">
                                      <div className='absolute garident-svgImg'>
                                          {item.icons}
                                      </div>
-                                     <p class="font-normal text-[#808D9A] text-[1rem] text-center p-6">
+                                     <p class="font-normal text-[#808D9A] text-[1rem] text-center lg:p-3 md:p-8 sm:p-10">
                                         {item.desc}
                                      </p>
                                  </a>

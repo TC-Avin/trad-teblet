@@ -11,11 +11,11 @@ function Branches() {
   return (
     <section className='brancher-sections  branch-timeline bg-[#F4FAFF] '>
 
-        <div className=' h-[50rem]  px-20 py-20 '  >
+        <div className=' h-[50rem]  px-20 py-20 '>
               <div className='container mx-auto' >
                 
         <h2 className='title text-lg lg:text-2xl font-bold sm:text-3xl md:text-3xl pt-5 pb-0 text-[#0A2A4A] relative text-center pb-10 '>Branches</h2>
-                <ol className="flex   grid md:grid-cols-4  branch-timeline-list ">                 
+                <ol className="flex   grid md:grid-cols-4 sm:grid-cols-4  branch-timeline-list ">                 
                   <li>
                     <div className="img-handler">   
                     <Img1/>

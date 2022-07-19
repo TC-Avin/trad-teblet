@@ -25,9 +25,7 @@ const Contracts = () => {
                             </div>
 
                         </div>
-
                         <div className='center-box relative flex justify-center items-center  mb-20 rounded-full w-200 h-200 mx-auto  mt-20 bg-gradient-to-r p-[1.5px] to-[#56a8f4] via-[#0FCE7E] from-[#bbd6eb]' >
-
                             <div className='left-side-arrow absolute ' >
                                 <img src={leftTop} className="left-top" />
                                 <img src={leftBottom} className="left-bottom" />
@@ -38,13 +36,9 @@ const Contracts = () => {
                             title text-lg lg:text-2xl font-bold sm:text-3xl md:text-3xl pt-8 pb-4 text-[#0A2A4A]
                             '>Contracts & Bills</h2>
                             </div>
-
                             <div className='right-side-arrow absolute '   >
-
                                 <img src={rightTop} className="right-top" />
-
                                 <img src={rightBottom} className="right-bottom" />
-
                             </div>
                         </div>
 

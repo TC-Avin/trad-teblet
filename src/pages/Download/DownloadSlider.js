@@ -26,11 +26,11 @@ const navigate =  useNavigate()
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 768,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
         },
       },
       {
@@ -67,7 +67,7 @@ const navigate =  useNavigate()
                 </div>
 
                 <Link to={value.link}>
-                  <div className="flex justify-center p-10 w-full h-52 bg-slate-300 md:p-10  md:bg-[#FFFFFF] items-center drop-shadow-none	     rounded-xl">
+                  <div className="flex justify-center p-10 w-full h-52 bg-white md:p-10  md:bg-[#FFFFFF] items-center drop-shadow-none	     rounded-xl">
                     <div className="items-center justify-self-center">
                       <div>
                         <Link to={value.link}>

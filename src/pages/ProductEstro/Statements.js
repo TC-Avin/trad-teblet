@@ -10,20 +10,20 @@ function Statements() {
             </div>
                 <div className="container px-5 pb-10  mx-auto flex flex-wrap">
                     <div className="flex flex-wrap  w-full">
-                        <div className="p-4 lg:w-1/2 md:w-full   ">
+                        <div className="p-4 lg:w-1/2 md:w-full sm:w-full">
                             <div className='relative w-full h-[15rem] '>
                                 <img src={SegIMg} className="absolute" />
                                 <div class="absolute px-[2rem] top-[36%] ">
-                                    <p className="leading-relaxed text-[#808D9A] text-[1rem] font-medium text-center pt-6">Printing Holding statements, Transaction statements for clients at predefined intervals on Dot Matrix Printers / Page Printer.</p>
+                                    <p className="leading-relaxed text-[#808D9A] text-[1rem] font-medium text-center md:pt-6 sm:pt-2">Printing Holding statements, Transaction statements for clients at predefined intervals on Dot Matrix Printers / Page Printer.</p>
                                 </div>
                             </div>
                         </div>
-                        <div className="p-4 lg:w-1/2 md:w-full   ">
+                        <div className="p-4 lg:w-1/2 md:w-full sm:w-full">
 
                             <div className='relative w-full h-[15rem]'>
                                 <img src={SegIMg} className="absolute" />
                                 <div class="absolute px-[2rem] top-[36%] ">
-                                    <p className="leading-relaxed text-[#808D9A] text-[1rem] font-medium text-center pt-6">Automatic forwarding statements to clients’ e-mail address / Fax on predefined dates.</p>
+                                    <p className="leading-relaxed text-[#808D9A] text-[1rem] font-medium text-center md:pt-6 sm:pt-2">Automatic forwarding statements to clients’ e-mail address / Fax on predefined dates.</p>
                                 </div>
                             </div>
 

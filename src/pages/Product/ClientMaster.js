@@ -31,7 +31,7 @@ const ClientMaster = ()=>{
                   <h2 className=' text-lg lg:text-2xl font-bold sm:text-3xl md:text-3xl pt-8 pb-4 text-[#0A2A4A]'>Client Master</h2>
               </div>
 
-            <div className="grid lg:grid-cols-2 grid-cols-1 w-full px-12 py-5 ">
+            <div className="grid lg:grid-cols-2 grid-cols-1 w-full md:px-12 lg:px-12 py-5 ">
 
                 <div class="timeline w:1/2">
                     {leftContent.map((singleLeft)=>(
@@ -42,7 +42,7 @@ const ClientMaster = ()=>{
                                         <h3 class="title">{singleLeft.num}</h3>
                                     </div>
                                     <div className="desc font-medium">
-                                        <h3 className="text-[1rem]">{singleLeft.title}</h3>
+                                        <h3 className="md:text-[1rem] lg:text-[1rem] text-[0.75rem]">{singleLeft.title}</h3>
                                     </div>
                                 </div>
                             </div>

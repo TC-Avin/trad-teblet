@@ -6,7 +6,7 @@ const Poligon = ({ className, counting }) => {
   return (
     <>
       <div className={className} >
-        <svg width="91" height="103" viewBox="0 0 91 103" fill="none" xmlns="http://www.w3.org/2000/svg"  >
+        <svg className='w-[80px] md:w-[91px] h-[80px] md:h-[103px]' viewBox="0 0 91 103" fill="none" xmlns="http://www.w3.org/2000/svg"  >
           <path d="M45.5 0L90.1003 25.75V77.25L45.5 103L0.899693 77.25V25.75L45.5 0Z" fill="url(#paint0_linear_1133_14051)" />
           <defs>
             <linearGradient id="paint0_linear_1133_14051" x1="-6" y1="0" x2="101.292" y2="96.3241" gradientUnits="userSpaceOnUse">
@@ -16,7 +16,7 @@ const Poligon = ({ className, counting }) => {
             </linearGradient>
           </defs>
         </svg>
-        <span className='counting absolute top-[1.7rem] left-[2rem] text-[2rem] text-[#00C673]  font-semibold ' >{counting}</span>
+        <span className='counting absolute sm:top-[1rem] md:top-[1.7rem] lg:top-[1.7rem] sm:left-[1.5rem] md:left-[1.7rem] lg:left-[1.7rem] text-[2rem] text-[#00C673]  font-semibold ' >{counting}</span>
       </div>
     </>
   )
@@ -26,7 +26,7 @@ const Poligon = ({ className, counting }) => {
 
 const LineImg = ({ className }) => {
   return (
-    <span className={` border-dashed border-t-[5px] border-[#0080F6]  ${className} end-point  `} ></span>
+    <span className={` border-dashed border-t-[5px] border-[#0080F6]  ${className} end-point sm:hidden md:block lg:block`} ></span>
   )
 }
 const Security = () => {
@@ -49,21 +49,21 @@ const Security = () => {
                 </div>
 
                 <div className='flex justify-left items-center pb-3  ' >
-                  <Poligon className=" ml-[5rem] relative" counting="02" />
+                  <Poligon className="md:ml-[5rem] relative" counting="02" />
                   <LineImg className=" w-[28rem] relative" />
                   <p className='w-[60%] text-[#808D9A]  lg:text-[18px]   ml-[2rem] '>
                     Stores client code as in trade file of exchange for verification against unauthorized modification.
                   </p>
                 </div>
                 <div className='flex justify-left items-center pb-3  ' >
-                  <Poligon className="ml-[9rem] relative" counting="03" />
+                  <Poligon className="md:ml-[9rem] relative" counting="03" />
                   <LineImg className=" w-[24rem] relative" />
                   <p className='w-[60%] text-[#808D9A]  lg:text-[18px]   ml-[2rem] '>
                     Security of client / server and RDBMS Database.
                   </p>
                 </div>
                 <div className='flex justify-left items-center pb-3  ' >
-                  <Poligon className="ml-[5rem] relative" counting="04" />
+                  <Poligon className="md:ml-[5rem] relative" counting="04" />
                   <LineImg className=" w-[28rem] relative" />
                   <p className='w-[60%] text-[#808D9A]  lg:text-[18px]   ml-[2rem] '>
                     Automatic locking of settlement on generation of bills.

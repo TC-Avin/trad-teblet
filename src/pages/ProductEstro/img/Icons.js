@@ -285,9 +285,7 @@ export const Img3 = ()=><>
 
 </>
 
-export const Img4 = ()=><><svg
-width={232}
-height={356}
+export const Img4 = ()=><><svg className="w-[232px]  lg:h-[356px] md:h-[356px]  sm:h-[280px]  branch-class1 branch-class2"
 viewBox="0 0 232 359"
 fill="none"
 xmlns="http://www.w3.org/2000/svg"

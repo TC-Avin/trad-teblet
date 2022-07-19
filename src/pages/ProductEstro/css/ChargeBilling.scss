@@ -513,6 +513,85 @@ $brand-color:#df8625;
         }
     }
   }
+  @media only screen and (max-width: 768px) {
+    .branch-timeline-list li:last-child {
+        .img-handler-bottom {
+            &:before {
+                content: "";
+                border-top: 2px dashed #29AEAA;
+                width: 0px;
+                position: absolute;
+                bottom: 0px;
+                right: 0px;
+                transform: rotate(330deg);
+            }
+            &:after {
+                content: "";
+                border-top: 2px dashed #29AEAA;
+                width: 8rem;
+                position: absolute;
+                bottom: 12rem;
+                left: -4rem;
+                transform: rotate(40deg);
+            }
+        }
+    }
+  }
+  @media only screen and (width:768px) {
+    .branch-class1{
+        height:280px !important
+    }
+    .branch-timeline-list li:last-child {
+        .img-handler-bottom {
+            &:before {
+                content: "";
+                border-top: 2px dashed #29AEAA;
+                width: 0px;
+                position: absolute;
+                bottom: 0px;
+                right: 0px;
+                transform: rotate(330deg);
+            }
+            &:after {
+                content: "";
+                border-top: 2px dashed #29AEAA;
+                width: 8rem;
+                position: absolute;
+                bottom: 12rem;
+                left: -4rem;
+                transform: rotate(40deg);
+            }
+        }
+    }
+  }
+
+  @media only screen and (min-width:1024px) {
+    .branch-class2{
+        height:294px !important
+    }
+    .branch-timeline-list li:last-child {
+        .img-handler-bottom {
+            &:before {
+                content: "";
+                border-top: 2px dashed #29AEAA;
+                width: 0px;
+                position: absolute;
+                bottom: 0px;
+                right: 0px;
+                transform: rotate(330deg);
+            }
+            &:after {
+                content: "";
+                border-top: 2px dashed #29AEAA;
+                width: 14rem;
+                position: absolute;
+                bottom: 12rem;
+                left: -7rem;
+                transform: rotate(40deg);
+            }
+        }
+    }
+  }
 
 // hexagon border 
 // .hexagon{
