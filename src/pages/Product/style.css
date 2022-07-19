@@ -3,8 +3,6 @@
     text-align: center;
 }
 
-@media screen and (min-width: 768px) {}
-
 .slick-track {
     display: flex;
 }
