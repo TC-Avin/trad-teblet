@@ -36,6 +36,15 @@ const Facility = ()=>{
         }
       },
       {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
@@ -65,11 +74,11 @@ const Facility = ()=>{
                       {initaldata.map((value, index) => (
                           <div
                           key={index + '_value'}
-                          className=" flex justify-center w-40 h-40 bg-slate-300 p-5 md:bg-[#FFFFFF] items-center drop-shadow-md rounded-xl"
+                          className=" flex justify-center w-40 h-40 bg-white p-5 md:bg-[#FFFFFF] items-center drop-shadow-md rounded-xl"
                       >
                           <div className="items-center justify-self-center">
                               <img alt="No Image" src={value.image} className="h-20 w-20 mb-3 place-content-between block absolute top-12 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" />
-                              <h2 className="text-center text-xl title-font   mt-20 font-medium text-[#0A2A4A]">{value.title}</h2>    
+                              <h2 className="text-center text-sm title-font   mt-20 font-medium text-[#0A2A4A]">{value.title}</h2>    
                           </div>
                       </div>
                       ))}
