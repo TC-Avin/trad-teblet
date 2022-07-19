@@ -12,9 +12,9 @@ function OtherFeature() {
 
         <div className='container py-20 px-14 min-h-[30rem] mx-auto' >
 
-            <div className='grid grid-cols-2 justify-between min-h-[27rem]' >
+            <div className='grid grid-cols-2   justify-between min-h-[27rem]' >
                 
-                    <div className='bg-white z-[10] relative'>
+                    <div className='bg-white   z-[10] relative    '  >
                             <img src={BGGreen} className="absolute z-[0] h-[20rem]" />
                             <div className='content relative top-[2.5rem] left-[7rem] w-[65%]'>
                                 <span className='text-[#00C673] text-[50px] font-[600]   '>01</span>
@@ -23,7 +23,7 @@ function OtherFeature() {
                     </div>
 
 
-                    <div className='bg-white z-[10] relative'>
+                    <div className='bg-white   z-[10] relative    '  >
                             <img src={BGBlue} className="absolute z-[0] h-[20rem]" />
                             <div className='content relative top-[2.5rem] left-[7rem] w-[65%]'>
                                 <span className='text-[#52A1FF] text-[50px] font-[600]   '>02</span>
@@ -37,7 +37,7 @@ function OtherFeature() {
                 
                
 
-                    <div className='bg-white z-[10] relative'>
+                    <div className='bg-white   z-[10] relative    '  >
                             <img src={BGBlue} className="absolute z-[0] h-[20rem]" />
                             <div className='content relative top-[2.5rem] left-[7rem] w-[65%]'>
                                 <span className='text-[#52A1FF] text-[50px] font-[600]   '>03</span>
@@ -45,10 +45,10 @@ function OtherFeature() {
                             </div>
                     </div>
 
-                    <div className='bg-white z-[10] relative'>
+                    <div className='bg-white   z-[10] relative    '  >
                             <img src={BGGreen} className="absolute z-[0] h-[20rem]" />
                             <div className='content relative top-[2.5rem] left-[7rem] w-[65%]'>
-                                <span className='text-[#00C673] text-[50px] font-[600]'>04</span>
+                                <span className='text-[#00C673] text-[50px] font-[600]  '>04</span>
                                 <p className='text-[#808D9A] pt-4 text-[1rem]'>In-built archival facility for keeping aside old/new data not currently required. User can also copy/transfer various types of data for various periods accordingly. User can also decide the range of data to be transferred that may be different for back office related data, etc.</p>
                             </div>
                     </div>

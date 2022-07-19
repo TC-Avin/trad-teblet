@@ -21,7 +21,7 @@ function Charges() {
 </svg>
 
           </div>
-          <div class=" pl-4 sm:pl-1">
+          <div class=" pl-4">
             <p class="leading-relaxed pt-1 text-[1rem] font-medium text-[#808D9A]">Defining various scheme and assigning to clients.</p>
           </div>
         </div>

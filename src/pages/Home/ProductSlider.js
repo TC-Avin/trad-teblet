@@ -24,15 +24,6 @@ const ProductSlider = () => {
         },
       },
       {
-        breakpoint: 768,
-        settings: {
-            slidesToShow:1,
-            slidesToScroll: 1,
-            infinite: true,
-            dots: true,
-        },
-    },
-      {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
@@ -64,21 +55,17 @@ const ProductSlider = () => {
             {initalState.map((value, index) => (
               <div
                 key={index + "_value"}
-                className="  justify-center p-10 w-60 bg-white md:p-8  md:bg-[#FFFFFF] items-center drop-shadow-md  flex flex-col   rounded-xl slide-content"
+                className="  justify-center p-10 w-60  bg-slate-300 md:p-10  md:bg-[#FFFFFF] items-center drop-shadow-md  flex flex-col   rounded-xl slide-content"
               >
                 <div className="items-center justify-self-center ">
                   <img 
                     alt="No Image"
                     src={value.image}
-                    className="h-20 w-20 sm:h-10 sm:w-10 mx-auto"
+                    className="h-20 w-20 mx-auto"
                   />
-                  <h2 className="text-center text-xl sm:text-lg mb-2 mt-4 font-medium text-[#3491FF]">
-                    {value.title}
-                  </h2>
-                  <p className="  text-normal mb-2 sm:text-sm  font-medium text-[#0A2A4A] text-center">
-                    {value.use}
+                  <p className="  text-normal mb-2 font-medium text-[#0A2A4A] text-center">
                   </p>
-                  <div className="  text-sm mt-4 sm:text-sm font-small sm:font-light text-[#808D9A] text-justify md:text-sm ">
+                  <div className="  text-sm mt-4 font-small text-[#808D9A] text-justify ">
                     {value.description}
                   </div>
                 </div>

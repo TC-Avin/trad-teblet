@@ -41,7 +41,7 @@ const DematRequest = ()=>{
                             </div>
 
                             {(index%2===0) ? <div className="block   relative  
-                                after:bg-[#D7F4EE] after:content-[''] after:w-[5rem] after:h-[5rem] after:border-dashed-[2px] after:absolute after:left-[9rem] after:rotate-[45deg] after:top-[-3rem]
+                                after:bg-[#D7F4EE] after:content-[''] after:w-[5rem] after:h-[5rem] after:border-dashed-[2px] after:absolute after:lg:left-[9.5rem] after:md:left-[10rem] after:rotate-[45deg] after:top-[-3rem]
                                  before:content-[''] before:w-[26rem] before:h-[5rem]  before:absolute before:left-[auto]  before:top-[-0.5rem] before:border-t-[2px] before:border-dashed before:border-[green] 
                             "></div> : ""}
                             

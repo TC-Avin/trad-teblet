@@ -20,8 +20,8 @@ const ChangeFacility = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToShow: 3,
+          slidesToScroll: 3,
           infinite: true,
           dots: true
         }
@@ -51,7 +51,7 @@ const ChangeFacility = () => {
           <p class="text-[1rem] leading-relaxed font-normal mx-auto text-[#808D9A] text-center">Various charges that may be levied over and above brokerage and may be specifically shown in contract / Bill.
             Turnover Charges, Contract Charges, Stamp Duty</p>
         </div>
-        <div className="container flex flex-wrap justify-between items-center mx-auto mb-15 px-10 py-12">
+        <div className="container flex flex-wrap justify-between items-center mx-auto mb-10 px-10 py-12">
           < >
             {initaldata.map((value, index) => (
               <div

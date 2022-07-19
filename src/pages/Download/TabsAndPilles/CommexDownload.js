@@ -45,9 +45,9 @@ const CommexDownload = (props) => {
 Head Office
 </h2>
         <Slider  {...settings} className="slider-card pb-12">
-          <SliderCard  subTitle='COMMEX EXE' img={'/assets/img/svg-1.png'} arrow={true} index={props.index} />
-          <SliderCard  subTitle='E-Sign' img={'/assets/img/svg-1.png'} arrow={true} index={props.index} />
-          <SliderCard  subTitle='DB Support' img={'/assets/img/svg-1.png'} arrow={true} index={props.index} />
+          <SliderCard title='Head office' subTitle='COMMEX EXE' img={'/assets/img/svg-1.png'} arrow={true} index={props.index} />
+          <SliderCard title='Head office' subTitle='E-Sign' img={'/assets/img/svg-1.png'} arrow={true} index={props.index} />
+          <SliderCard title='Head office' subTitle='DB Support' img={'/assets/img/svg-1.png'} arrow={true} index={props.index} />
         </Slider >
         </div>
         <div className='relative'>
@@ -56,8 +56,8 @@ Head Office
 Branch & Individual Client  
 </h2>
         <Slider  {...settings} className="slider-card pb-12">
-          <SliderCard  subTitle='COMMNET' img={'/assets/img/svg-7.svg'} arrow={false} index={props.index} />
-          <SliderCard  subTitle='P7 Reader Uttility' img={'/assets/img/svg-7.svg'} arrow={false} index={props.index} />
+          <SliderCard title='Branch & Individual Client' subTitle='COMMNET' img={'/assets/img/svg-7.svg'} arrow={false} index={props.index} />
+          <SliderCard title='Branch & Individual Client' subTitle='P7 Reader Uttility' img={'/assets/img/svg-7.svg'} arrow={false} index={props.index} />
         </Slider >
         </div>
         <div className='relative'>
@@ -66,9 +66,9 @@ Branch & Individual Client
 Knowledge Base
 </h2>
         <Slider  {...settings} className="slider-card pb-12">
-          <SliderCard  subTitle='Circulars' img={'/assets/img/svg-6.svg'} arrow={false} index={props.index} />
-          <SliderCard  subTitle='Help' img={'/assets/img/svg-6.svg'} arrow={false} index={props.index} />
-          <SliderCard  subTitle='Modifications' img={'/assets/img/svg-6.svg'} arrow={false} index={props.index} />
+          <SliderCard title='Knowledge Base' subTitle='Circulars' img={'/assets/img/svg-6.svg'} arrow={false} index={props.index} />
+          <SliderCard title='Knowledge Base' subTitle='Help' img={'/assets/img/svg-6.svg'} arrow={false} index={props.index} />
+          <SliderCard title='Knowledge Base' subTitle='Modifications' img={'/assets/img/svg-6.svg'} arrow={false} index={props.index} />
         </Slider >
         </div>
       </div>

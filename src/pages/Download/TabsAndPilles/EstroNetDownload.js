@@ -47,10 +47,10 @@ const EstroNetDownload = (props) => {
             Head Office
           </h2>
           <Slider  {...settings} className="slider-card pb-12">
-            <SliderCard  subTitle='Estro EXE' img={'/assets/img/svg-1.png'} arrow={true} index={props.index} />
-            <SliderCard  subTitle='E-Sign' img={'/assets/img/svg-1.png'} arrow={true} index={props.index} />
-            <SliderCard  subTitle='DLLs' img={'/assets/img/svg-1.png'} arrow={true} index={props.index} />
-            <SliderCard  subTitle='DB Support' img={'/assets/img/svg-1.png'} arrow={true} index={props.index} />
+            <SliderCard title='Head office' subTitle='Estro EXE' img={'/assets/img/svg-1.png'} arrow={true} index={props.index} />
+            <SliderCard title='Head office' subTitle='E-Sign' img={'/assets/img/svg-1.png'} arrow={true} index={props.index} />
+            <SliderCard title='Head office' subTitle='DLLs' img={'/assets/img/svg-1.png'} arrow={true} index={props.index} />
+            <SliderCard title='Head office' subTitle='DB Support' img={'/assets/img/svg-1.png'} arrow={true} index={props.index} />
           </Slider >
         </div>
         <div className='relative'>
@@ -59,10 +59,10 @@ const EstroNetDownload = (props) => {
             Branch & Individual Client
           </h2>
           <Slider  {...settings} className="slider-card pb-12">
-            <SliderCard  subTitle='EstroNet' img={'/assets/img/svg-7.svg'} arrow={false} index={props.index} />
-            <SliderCard  subTitle='Estoweb' img={'/assets/img/svg-7.svg'} arrow={false} index={props.index} />
-            <SliderCard  subTitle='Framework' img={'/assets/img/svg-7.svg'} arrow={false} index={props.index} />
-            <SliderCard  subTitle='DLLs for XP' img={'/assets/img/svg-7.svg'} arrow={false} index={props.index} />
+            <SliderCard title='Branch & Individual Client' subTitle='EstroNet' img={'/assets/img/svg-7.svg'} arrow={false} index={props.index} />
+            <SliderCard title='Branch & Individual Client' subTitle='Estoweb' img={'/assets/img/svg-7.svg'} arrow={false} index={props.index} />
+            <SliderCard title='Branch & Individual Client' subTitle='Framework' img={'/assets/img/svg-7.svg'} arrow={false} index={props.index} />
+            <SliderCard title='Branch & Individual Client' subTitle='DLLs for XP' img={'/assets/img/svg-7.svg'} arrow={false} index={props.index} />
           </Slider >
         </div>
         <div className='relative'>
@@ -71,9 +71,9 @@ const EstroNetDownload = (props) => {
             Knowledge Base
           </h2>
           <Slider  {...settings} className="slider-card pb-12">
-            <SliderCard  subTitle='Circulars' img={'/assets/img/svg-6.svg'} arrow={false} index={props.index} />
-            <SliderCard  subTitle='Help' img={'/assets/img/svg-6.svg'} arrow={false} index={props.index} />
-            <SliderCard  subTitle='Modifications' img={'/assets/img/svg-6.svg'} arrow={false} index={props.index} />
+            <SliderCard title='Knowledge Base' subTitle='Circulars' img={'/assets/img/svg-6.svg'} arrow={false} index={props.index} />
+            <SliderCard title='Knowledge Base' subTitle='Help' img={'/assets/img/svg-6.svg'} arrow={false} index={props.index} />
+            <SliderCard title='Knowledge Base' subTitle='Modifications' img={'/assets/img/svg-6.svg'} arrow={false} index={props.index} />
           </Slider >
 
         </div>

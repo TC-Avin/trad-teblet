@@ -51,7 +51,7 @@ function Footer() {
          <div className = "bg-[#0A2A4A] border-t-[0.5px] border-[#FFFFFF]  w-full " >
         < div className = " mx-auto py-2 flex flex-wrap flex-col sm:flex-row justify-between" >
         <p className = "text-[#fff] text-sm text-center sm:text-left " > 2022 Copyright:
-        <a href = "mailto:info@secmark.in"
+        <a href="mailto:info@secmark.in"
         rel = "noopener noreferrer"
         className = "text-[#3491FF] ml-1 underline"
         target = "_blank" >info@secmark.in</a>  
@@ -59,10 +59,10 @@ function Footer() {
         < div className = "flex justify-between   flex-wrap pl-3 space-x-4 sm:space-x-8" >
         <nav className = "list-none flex-row " >
         <li className = "inline pr-2" >
-        <a className = "text-[#ffffff] font-small text-md" >Disclaimer </a>  
+            <a className = "text-[#ffffff] font-small text-md" >Disclaimer </a>  
         </li>  
         <li className = "inline" >
-        <a className = "text-[#FFFFFF] font-small text-md" >Privacy Policy. </a>  
+           <a className = "text-[#FFFFFF] font-small text-md" >Privacy Policy. </a>  
         </li>  
         </nav>  
         </div>  

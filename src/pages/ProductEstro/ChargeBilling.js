@@ -9,7 +9,12 @@ function ChargeBilling() {
         <div className='container py-12 px-12 mx-auto'>
         
         <h2 className='title text-lg lg:text-2xl font-bold sm:text-3xl md:text-3xl pt-5 pb-4 text-[#0A2A4A] relative text-center  '> Charges & Billing</h2>
-       <div className='ps-timeline-sec h-[36rem] pt-[10rem]' >
+       
+
+
+
+
+          <div className='ps-timeline-sec h-[36rem] pt-[10rem]' >
               <div className='container ' >
 
               <img src={Image} className="absolute" />

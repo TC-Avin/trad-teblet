@@ -14,14 +14,14 @@ const PmsDownload = (props) => {
 <h2 className=" text-center lg:text-2xl text-base font-medium text-[#000000]">
 Head Office
 </h2>
-    <SliderCard  subTitle='PMS' img={'/assets/img/svg-1.png'} arrow={false} index={props.index}/>
+    <SliderCard title='Head office' subTitle='PMS' img={'/assets/img/svg-1.png'} arrow={false} index={props.index}/>
     </div>
     <div className='relative'>
 
 <h2 className=" text-center lg:text-2xl text-base font-medium text-[#000000]">
 Branch & Individual Client
 </h2>
-    <SliderCard  subTitle='Circular' img={'/assets/img/svg-7.svg'} arrow={false} index={props.index}/>
+    <SliderCard title='Knowledge Base' subTitle='Circular' img={'/assets/img/svg-7.svg'} arrow={false} index={props.index}/>
     </div>
     <div class="text-gray-600 body-font">
           <div className="single-slider px-5 py-0">
