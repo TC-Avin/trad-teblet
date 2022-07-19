@@ -26,7 +26,7 @@ function Statements() {
                             <div className='relative w-full h-[15rem]'>
                                 <img src={SegIMg} className="absolute" />
                                 <div class="absolute px-[2rem] xl:top-[38%] lg:top-[16%] top-[8%]">
-                                    <p className="leading-relaxed text-[#808D9A] lg:text-[1rem] text-[0.75rem] sm:text-[0.5rem] font-medium text-center pt-6">Automatic forwarding statements to clients’ e-mail address / Fax at predefined frequency.</p>
+                                    <p className="leading-relaxed text-[#808D9A] lg:text-[1rem] md:text-[0.75rem] sm:text-[0.5rem] font-medium text-center pt-6">Automatic forwarding statements to clients’ e-mail address / Fax at predefined frequency.</p>
                                 </div>
                             </div>
                         </div>
@@ -36,7 +36,7 @@ function Statements() {
                             <div className='relative w-full h-[9rem] lg:top-[-70px] top-[-150px] '>
                                 <img src={SegIMg} className="absolute" />
                                 <div class="absolute px-[2rem] xl:top-[70%] lg:top-[34%] top-[10%] text-center w-full">
-                                    <p className="leading-relaxed text-[#808D9A] lg:text-[1rem] text-[0.75rem] sm:text-[0.5rem] font-medium text-center pt-6 w-full">Can be printed on pre-printed stationery with on site set-up utility.</p>
+                                    <p className="leading-relaxed text-[#808D9A] lg:text-[1rem] md:text-[0.75rem] sm:text-[0.5rem] font-medium text-center pt-6 w-full">Can be printed on pre-printed stationery with on site set-up utility.</p>
                                 </div>
                             </div>
                         </div>

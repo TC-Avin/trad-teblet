@@ -135,14 +135,7 @@
 .input-border-all .input-border {
     border: solid 1px;
 }
-.text-size{
-    font-size:11px;
-}
-@media screen and (max-width: 768px) {
-    .slick-slider  {  
-        width: 310px !important;
-    }
-  }
 
-  
-  
+.text-size {
+    font-size: 11px;
+}
