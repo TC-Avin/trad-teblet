@@ -24,6 +24,15 @@ const ProductSlider = () => {
         },
       },
       {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
@@ -55,7 +64,7 @@ const ProductSlider = () => {
             {initalState.map((value, index) => (
               <div
                 key={index + "_value"}
-                className="  justify-center p-10 w-60  bg-slate-300 md:p-10  md:bg-[#FFFFFF] items-center drop-shadow-md  flex flex-col   rounded-xl slide-content"
+                className="  justify-center p-10 w-60  bg-white md:p-10  md:bg-[#FFFFFF] items-center drop-shadow-md  flex flex-col   rounded-xl slide-content"
               >
                 <div className="items-center justify-self-center ">
                   <img 
