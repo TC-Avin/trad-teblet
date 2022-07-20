@@ -229,3 +229,9 @@
     left: 16px;
     bottom: 70px;
   } */
+
+@media (max-width: 768px) {
+    #timeline-section .card .desc {
+        max-width: 19rem;
+    }
+}

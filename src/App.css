@@ -150,45 +150,45 @@ textarea.w-full.h-full {
     resize: none;
     overflow: hidden;
 }
-.border-technical{
-    
+
+.border-technical {
     /* border: 1px solid; */
     /* max-width: fit-content; */
     width: 98%;
-    background: linear-gradient(to right,#0FCE7E
-    , #0080F6
-    );
-
+    background: linear-gradient(to right, #0FCE7E, #0080F6);
 }
-.side-line{
+
+.side-line {
     top: 50%;
     left: 27%;
     transform: translate(-50%, -50%);
 }
 
 @media screen and (max-width: 1024px) {
-    .side-line{  
-        left:20%;
+    .side-line {
+        left: 20%;
     }
-  }
-.side-line1{
+}
+
+.side-line1 {
     top: 50%;
-    left:73.8%;
+    left: 73.8%;
     transform: translate(-50%, -50%);
 }
 
 @media screen and (max-width: 1024px) {
-    .side-line1{  
-        left:80.8%;
+    .side-line1 {
+        width: 66%;
+        left: 73.8%;
     }
-  }
+}
 
 @media screen and (max-width: 1024px) {
-    .slider-card  {  
+    .slider-card {
         /* width: 310px !important; */
     }
-  }
+}
 
-  .gst-card  .width-class{
+.gst-card .width-class {
     width: 13rem !important;
 }

@@ -14,7 +14,7 @@ export const initalState = [
     {id: 2, active: true, image: '/assets/img/svg-3.png',link:"/downloads/ESTRO&EstroNet", linkname:"ESTRO&EstroNet",title: 'ESTRO & EstroNet', use: 'Back office / front office co-ordination, billing and accounting software for DPs with NSDL'},
     {id: 3, active: true, image: '/assets/img/svg-2.png',link:"/downloads/CROSS&CrossNet", linkname:"CROSS&CrossNet", title: 'CROSS & CrossNet', use: 'Back office / front office co-ordination, billing and accounting software for DPs with CDSL'},
     {id: 5, active: true, image: '/assets/img/svg-4.png',link:"/downloads/CommEx&CommNet", linkname:"CommEx&CommNet", title: 'CommEx & CommNet', use: 'Back office Software for Commodity Exchange'},
-    {id: 6, active: false, image: '/assets/img/svg-2.png',link:"/downloads/eSign",  linkname:"eSign",title: 'eSign EXE is available along with relevant Products', use: ''},
+    {id: 6, active: false, image: '/assets/img/svg-2.png',link:"/downloads/eSign",  linkname:"eSign",title: 'eSign ', use: ''},
     {id: 6, active: false, image: '/assets/img/svg-4.png',link:"/downloads/PMS",  linkname:"PMS",title: 'PMS', use: 'Portfolio Management Services'},
 
 ]

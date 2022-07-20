@@ -66,14 +66,19 @@ const DownloadCard = () => {
       </div>
       <div className='w-1/2 lg:my-28  lg:px-20 px-10 my-10'>
         <div className='text-[#3491FF] font-bold mb-7 text-2xl '>Enter Your Details</div>
-        <div>
+      <div>
+
+
       {
       CardComponents.map((data)=>{
         if(data.name===selectedCompo){
-          return <div>{data.components}</div>
+          return <div className='min-h-[7rem]'>{data.components}</div>
         }
       })
       }
+
+
+
       </div>
       <div>
         <button
