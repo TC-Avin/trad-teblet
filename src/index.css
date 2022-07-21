@@ -87,15 +87,7 @@
     p.text-\[\#808D9A\].ml-\[3rem\].pl-\[1rem\].text-\[1rem\].font-medium.p-4.bg-\[\#ffffff\] {
         margin-left: 59px;
     }
-    /* .flex-grow.ml-2 {
-        margin-left: 2rem;
-    } */
-    /* p.text-\[\#808D9A\].text-\[1rem\].font-medium.ml-8.p-4.bg-\[\#ffffff\] {
-        margin-left: 61px;
-    }
-    p.text-\[\#808D9A\].text-\[1rem\].font-small.ml-7.p-4.bg-\[\#ffffff\] {
-        margin-left: 53px;
-    } */
+
     p.text-\[\#808D9A\].text-\[1rem\].font-medium {
         margin-left: 32px;
     }
@@ -105,7 +97,7 @@
     p.text-\[\#808D9A\].text-\[1rem\].font-medium.ml-\[2rem\].p-4.bg-\[\#ffffff\] {
         margin-left: 2rem;
     }
-    */ span.border-dashed.border-t-\[5px\].border-\[\#0080F6\].w-\[33rem\].relative.end-point {
+     span.border-dashed.border-t-\[5px\].border-\[\#0080F6\].w-\[33rem\].relative.end-point {
         border-top-width: 3px;
     }
     p.w-\[60\%\].text-\[\#808D9A\].text-\[18px\].ml-\[2rem\] {
