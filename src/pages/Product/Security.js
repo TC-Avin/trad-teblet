@@ -29,7 +29,7 @@ const Poligon = ({ className, counting }) => {
 
 const LineImg = ({ className }) => {
   return (
-    <span className={` border-dashed border-t-[5px] border-[#0080F6]  ${className} end-point sm:hidden md:block lg:block`} ></span>
+    <span className={` border-dashed border-t-[5px] lg:border-t-[5px] md:border-t-[3px]  border-[#0080F6]  ${className} end-point sm:hidden md:block lg:block`} ></span>
   )
 }
 const Security = () => {
@@ -67,8 +67,8 @@ const Security = () => {
               </div>
               <div className='flex justify-left items-center pb-3  ' >
                 <Poligon className="md:ml-[13rem] relative" counting="04" />
-                <LineImg className=" w-[19rem] relative" />
-                <p className='w-[60%] text-[#808D9A] lg:text-[18px] text-[12px] ml-[2rem] '>
+                <LineImg className=" w-[19rem] relative md:w-[10rem] lg:w-[19rem] " />
+                <p className='w-[60%] text-[#808D9A] lg:text-[18px] text-[12px] ml-[2rem] md: '>
                   Automatic locking of settlement on generation of bills.
                 </p>
               </div>

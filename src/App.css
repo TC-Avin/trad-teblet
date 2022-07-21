@@ -187,6 +187,17 @@ textarea.w-full.h-full {
     .slider-card {
         /* width: 310px !important; */
     }
+    .bottom-arrow-section::before,
+    .bottom-arrow-section::after {
+        width: calc(56% - 100px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bottom-arrow-section::before,
+    .bottom-arrow-section::after {
+        width: calc(58% - 100px);
+    }
 }
 
 .gst-card .width-class {

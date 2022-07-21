@@ -412,3 +412,8 @@
     content: var(--tw-content);
     width: 59rem !important;
 } */
+
+#brockrage-facility-slider .slick-next {
+    right: 20px;
+    top: 41%;
+}

@@ -58,7 +58,7 @@
     position: absolute;
     height: 50px;
     background: #ffff !important;
-    border: 1px solid #3491FF;
+    /* border: 1px solid #3491FF; */
     z-index: 1;
     border-radius: 50%;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.14), 0 6px 6px rgba(0, 0, 0, 0.15);
@@ -71,7 +71,7 @@
     position: absolute;
     height: 50px;
     background: #ffff !important;
-    border: 1px solid #3491FF;
+    /* border: 1px solid #3491FF; */
     z-index: 1;
     border-radius: 50%;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.14), 0 6px 6px rgba(0, 0, 0, 0.15);
@@ -91,8 +91,9 @@
     background: #1e6fd0;
 }
 
-.slick-prev::before {
-    content: '\2039';
+
+/* .slick-prev::before {
+    content: 'U+1449 ';
     padding: 1px 11px;
     position: absolute;
     font-size: 62px;
@@ -103,7 +104,7 @@
 }
 
 .slick-next:before {
-    content: '\203A';
+    content: 'U+1449';
     padding: 1px 11px;
     position: absolute;
     font-size: 62px;
@@ -111,7 +112,7 @@
     line-height: .4;
     left: 5px;
     color: #3491FF !important;
-}
+} */
 
 .product-actions {
     display: flex;

@@ -34,7 +34,6 @@ const Banner = ()=>{
                                 Generate files for most front office software for new client creation and limit setting, including additional limit file for BTST.                           
                              </p>
                         </div>
-
                         <div>
                             <img src='/assets/img/banner-img1.svg' alt="banner-img" className="w-100 mt-20"/> 
                         </div>
