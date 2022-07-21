@@ -8,6 +8,7 @@ const Layout = (props) => {
                 <div className="" >
                     {props.children}
                 </div>
+                
         <Footer />
     </>
     )
